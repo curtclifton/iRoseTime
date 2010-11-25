@@ -1,0 +1,818 @@
+TiRoseTime
+v7
+r0
+t312327974.816842
+cCheck dependencies
+cProcessInfoPlistFile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Info.plist" iRoseTime-Info.plist
+cCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib"
+cCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib"
+cCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib"
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/Millenium_Flame.jpg Millenium_Flame.jpg
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/periodRuler_iPhone.png periodRuler_iPhone.png
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/reticule_iPhone.png reticule_iPhone.png
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/timeRuler_iPhone.png timeRuler_iPhone.png
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/RoseNewRed.png RoseNewRed.png
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/RoseKnockout.png RoseKnockout.png
+cProcessPCH /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch.gch iRoseTime_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/main.o "/Users/cclifton/Development/iOS Class/iRoseTime/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTimeAppDelegate.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/TimeViewController.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTime.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RTTimeSource.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime" normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/FirstViewController.h
+c000000004CED4996000000000000012C
+t1290619286
+s300
+i<UIKit/UIKit.h>
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/FirstViewController.m
+c000000004CED499600000000000005F3
+t1290619286
+s1523
+i"FirstViewController.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.h
+c000000004CB79CD50000000000000382
+t1287101653
+s898
+i<Foundation/Foundation.h>
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m
+c000000004CB714190000000000000744
+t1287066649
+s1860
+i"RTTimeSource.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.h
+c000000004CB79C5500000000000003C7
+t1287101525
+s967
+i<Foundation/Foundation.h>
+i"RTTimeSource.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m
+c000000004CBBE29900000000000015F5
+t1287381657
+s5621
+i"RoseTime.h"
+i"RTTimeSource.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTimeTests.h
+c000000004CB6325000000000000003D8
+t1287008848
+s984
+i<SenTestingKit/SenTestingKit.h>
+i<UIKit/UIKit.h>
+i"RTTimeSource.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTimeTests.m
+c000000004CB7B7AC000000000000257E
+t1287108524
+s9598
+i"RoseTimeTests.h"
+i"RoseTime.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.h
+c000000004CED4E97000000000000032F
+t1290620567
+s815
+i<UIKit/UIKit.h>
+i"RoseTime.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m
+c000000004CED56330000000000001548
+t1290622515
+s5448
+i"TimeViewController.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.h
+c000000004CED4996000000000000021F
+t1290619286
+s543
+i<UIKit/UIKit.h>
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m
+c000000004CED49960000000000000C7D
+t1290619286
+s3197
+i"iRoseTimeAppDelegate.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/FirstView.xib
+c000000004CED499600000000000049D3
+t1290619286
+s18899
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib
+c000000004CED4AD700000000000063AB
+t1290619607
+s25515
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Millenium_Flame.jpg
+c000000004CEC3A30000000000000DF93
+t1290549808
+s57235
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/RoseKnockout.png
+c000000004C509B6B0000000000003587
+t1280351083
+s13703
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/RoseNewRed.png
+c000000004C522A2A00000000000048A0
+t1280453162
+s18592
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/SecondView.xib
+c000000004CED499600000000000049D1
+t1290619286
+s18897
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib
+c000000004CED499600000000000049D1
+t1290619286
+s18897
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib
+c000000004CED570300000000000082E3
+t1290622723
+s33507
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app
+t2
+s0
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app.dSYM
+t2
+s0
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/FirstView.nib
+t2
+s0
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Info.plist
+t1290635173
+s599
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/MainWindow.nib
+t1290635173
+s1697
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Millenium_Flame.jpg
+t1290635173
+s57235
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/PkgInfo
+t1290635173
+s8
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/RoseKnockout.png
+t1290635173
+s13703
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/RoseNewRed.png
+t1290635173
+s18592
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/SecondView.nib
+t2
+s0
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/SettingsView.nib
+t1290635173
+s1742
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/TimeView.nib
+t1290635173
+s2537
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime
+t2
+s0
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/periodRuler_iPhone.png
+t1290635173
+s29817
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/reticule_iPhone.png
+t1290635173
+s10138
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/timeRuler_iPhone.png
+t1290635173
+s30623
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/FirstViewController.o
+t2
+s0
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RTTimeSource.o
+t1290635174
+s16864
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTime.o
+t1290635174
+s24920
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTimeTests.o
+t2
+s0
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/TimeViewController.o
+t1290635174
+s57948
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTime.LinkFileList
+c000000004CED87A500000000000002CD
+t1290635173
+s717
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTimeAppDelegate.o
+t1290635174
+s54432
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/main.o
+t1290635174
+s6320
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime_Prefix.pch
+c000000004CED499600000000000000BB
+t1290619286
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/main.m
+c000000004CED499600000000000001A7
+t1290619286
+s423
+i<UIKit/UIKit.h>
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/periodRuler_iPhone.png
+c000000004CEC39250000000000007479
+t1290549541
+s29817
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/reticule_iPhone.png
+c000000004CEC476D000000000000279A
+t1290553197
+s10138
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/timeRuler_iPhone.png
+c000000004CEC387F000000000000779F
+t1290549375
+s30623
+
+N/var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-bpqdlyjtywxurdbtvmkjrtvteyrw/iRoseTime_Prefix.pch.gch
+t1290619681
+s15211536
+
+N/var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch.gch
+t1290635174
+s15453392
+
+NiRoseTime-Info.plist
+c000000004CED4996000000000000038D
+t1290619286
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312327973#312327973#0(0"0(0#1#0"8622880640#0"0#
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/FirstViewController.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/FirstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RTTimeSource.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327974.710385
+e312327974.789281
+r1
+xCompileC
+xbuild/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RTTimeSource.o
+x/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m312327974#312327974#0(0"0(0#0#70"/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m8620892928#2099"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -include /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch -c "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RTTimeSource.o"0#
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTime.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327974.645236
+e312327974.765215
+r1
+xCompileC
+xbuild/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTime.o
+x/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m312327974#312327974#0(0"0(0#0#66"/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m8621893536#2091"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -include /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch -c "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTime.o"0#
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTimeTests.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTimeTests.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/TimeViewController.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327974.643574
+e312327974.763616
+r1
+xCompileC
+xbuild/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/TimeViewController.o
+x/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m312327974#312327974#0(0"0(0#0#76"/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m8622564320#2111"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -include /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch -c "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/TimeViewController.o"0#
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTimeAppDelegate.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327974.642256
+e312327974.757562
+r1
+xCompileC
+xbuild/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTimeAppDelegate.o
+x/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m312327974#312327974#0(0"0(0#0#78"/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m8625675648#2115"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -include /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch -c "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTimeAppDelegate.o"0#
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/main.o "/Users/cclifton/Development/iOS Class/iRoseTime/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327974.640523
+e312327974.710236
+r1
+xCompileC
+xbuild/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/main.o
+x/Users/cclifton/Development/iOS Class/iRoseTime/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/cclifton/Development/iOS Class/iRoseTime/main.m312327974#312327974#0(0"0(0#0#54"/Users/cclifton/Development/iOS Class/iRoseTime/main.m8616782016#2075"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -include /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch -c "/Users/cclifton/Development/iOS Class/iRoseTime/main.m" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/FirstView.xib"
+r0
+
+CCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib"
+s312327973.252575
+e312327973.711403
+r1
+xCompileXIB
+x/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312327973#312327973#0(0"0(0#0#62"/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib8610574560#605"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/MainWindow.nib" "/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/SecondView.xib"
+r0
+
+CCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib"
+s312327973.253388
+e312327973.744977
+r1
+xCompileXIB
+x/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib
+lSLF07#2@27"CompileXIB SettingsView.xib312327973#312327973#0(0"0(0#0#64"/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib8610134592#609"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/SettingsView.nib" "/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib"
+s312327973.254160
+e312327973.778371
+r1
+xCompileXIB
+x/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib
+lSLF07#2@23"CompileXIB TimeView.xib312327973#312327973#0(0"0(0#0#60"/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib8609655232#601"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/TimeView.nib" "/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/Millenium_Flame.jpg Millenium_Flame.jpg
+s312327973.254968
+e312327973.268062
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/Millenium_Flame.jpg
+xMillenium_Flame.jpg
+lSLF07#2@24"Copy Millenium_Flame.jpg312327973#312327973#0(0"0(0#0#67"/Users/cclifton/Development/iOS Class/iRoseTime/Millenium_Flame.jpg8608991744#512"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/Millenium_Flame.jpg" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/RoseKnockout.png RoseKnockout.png
+s312327973.265384
+e312327973.287087
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/RoseKnockout.png
+xRoseKnockout.png
+lSLF07#2@21"Copy RoseKnockout.png312327973#312327973#0(0"0(0#0#64"/Users/cclifton/Development/iOS Class/iRoseTime/RoseKnockout.png8605420352#509"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/RoseKnockout.png" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/RoseNewRed.png RoseNewRed.png
+s312327973.263041
+e312327973.284837
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/RoseNewRed.png
+xRoseNewRed.png
+lSLF07#2@19"Copy RoseNewRed.png312327973#312327973#0(0"0(0#0#62"/Users/cclifton/Development/iOS Class/iRoseTime/RoseNewRed.png8605737024#507"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/RoseNewRed.png" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/periodRuler_iPhone.png periodRuler_iPhone.png
+s312327973.256068
+e312327973.269633
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/periodRuler_iPhone.png
+xperiodRuler_iPhone.png
+lSLF07#2@27"Copy periodRuler_iPhone.png312327973#312327973#0(0"0(0#0#70"/Users/cclifton/Development/iOS Class/iRoseTime/periodRuler_iPhone.png8606662240#515"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/periodRuler_iPhone.png" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/reticule_iPhone.png reticule_iPhone.png
+s312327973.258242
+e312327973.272725
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/reticule_iPhone.png
+xreticule_iPhone.png
+lSLF07#2@24"Copy reticule_iPhone.png312327973#312327973#0(0"0(0#0#67"/Users/cclifton/Development/iOS Class/iRoseTime/reticule_iPhone.png8606411040#512"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/reticule_iPhone.png" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/timeRuler_iPhone.png timeRuler_iPhone.png
+s312327973.260610
+e312327973.275437
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/timeRuler_iPhone.png
+xtimeRuler_iPhone.png
+lSLF07#2@25"Copy timeRuler_iPhone.png312327973#312327973#0(0"0(0#0#68"/Users/cclifton/Development/iOS Class/iRoseTime/timeRuler_iPhone.png8606222560#513"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/timeRuler_iPhone.png" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CGenerateDSYMFile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app.dSYM" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime"
+s312315316.715185
+e312315316.752005
+r1
+xGenerateDSYMFile
+x/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app.dSYM
+x/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/iRoseTime.app.dSYM build/Debug-iphonesimulator/iRoseTime.app/iRoseTime312315316#312315316#0(0"0(0#0#99"/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime8644275936#422"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app.dSYM"0#
+
+CLd "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime" normal i386
+s312327974.789377
+e312327974.816758
+r0
+xLd
+x/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime
+xnormal
+xi386
+oUndefined symbols:
+o  "_NSGregorianCalendar", referenced from:
+o      _NSGregorianCalendar$non_lazy_ptr in RTTimeSource.o
+o     (maybe you meant: _NSGregorianCalendar$non_lazy_ptr)
+o  "__objc_empty_cache", referenced from:
+o      _OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o
+o      _OBJC_CLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o
+o      _OBJC_METACLASS_$_TimeViewController in TimeViewController.o
+o      _OBJC_CLASS_$_TimeViewController in TimeViewController.o
+o      _OBJC_METACLASS_$_RoseTime in RoseTime.o
+o      _OBJC_CLASS_$_RoseTime in RoseTime.o
+o      _OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o
+o      _OBJC_CLASS_$_RTActualTimeSource in RTTimeSource.o
+o      _OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o
+o      _OBJC_CLASS_$_RTFixedTimeSource in RTTimeSource.o
+o  "_UIApplicationMain", referenced from:
+o      _main in main.o
+o  "_OBJC_CLASS_$_UIView", referenced from:
+o      objc-class-ref-to-UIView in TimeViewController.o
+o  "_OBJC_CLASS_$_NSMutableArray", referenced from:
+o      objc-class-ref-to-NSMutableArray in RoseTime.o
+o  "_objc_enumerationMutation", referenced from:
+o      -[RoseTime secondsUntilNextBell] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o  "___CFConstantStringClassReference", referenced from:
+o      cfstring=Update Time in TimeViewController.o
+o      cfstring=%d:%02d in TimeViewController.o
+o      cfstring=Setting y location of time bar to %.2f in TimeViewController.o
+o      cfstring-utf16=004F.004B.002C.0020.0049.2019.006C.006C.0020.0074.0072.0079.0020.006C.0061.0074.0065.0072 in TimeViewController.o
+o      cfstring-utf16=0053.006F.0072.0072.0079.002C.0020.0062.0075.0074.0020.0074.0068.0065.0020.0064.0065.0076.0069.0063.0065.0020.0074.0069.006D.0065.0020.0069.0073.006E.2019.0074.0020.0063.006C.006F.0073.0065.0020.0065.006E.006F.0075.0067.0068.0020.0074.006F.0020.0061.006E.0020.0065.0078.0070.0065.0063.0074.0065.0064.0020.0062.0065.006C.006C.0020.0074.0069.006D.0065.0020.0074.006F.0020.0061.0075.0074.006F.006D.0061.0074.0069.0063.0061.006C.006C.0079.0020.0073.0079.006E.0063.0068.0072.006F.006E.0069.007A.0065.002E.0000 in TimeViewController.o
+o      cfstring=Unable to synchronize with bells now in TimeViewController.o
+o      cfstring=en_US in RoseTime.o
+o      cfstring=am in RoseTime.o
+o      cfstring=pm in RoseTime.o
+o      cfstring=America/Indiana/Indianapolis in RTTimeSource.o
+o  "_OBJC_CLASS_$_NSAutoreleasePool", referenced from:
+o      objc-class-ref-to-NSAutoreleasePool in main.o
+o  "_objc_msgSendSuper2", referenced from:
+o      -[iRoseTimeAppDelegate dealloc] in iRoseTimeAppDelegate.o
+o      -[TimeViewController viewDidLoad] in TimeViewController.o
+o      -[TimeViewController didReceiveMemoryWarning] in TimeViewController.o
+o      -[TimeViewController dealloc] in TimeViewController.o
+o      -[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o
+o      -[RoseTime dealloc] in RoseTime.o
+o      -[RTFixedTimeSource initWithTime:] in RTTimeSource.o
+o      -[RTFixedTimeSource dealloc] in RTTimeSource.o
+o      -[RTActualTimeSource dealloc] in RTTimeSource.o
+o  "_OBJC_METACLASS_$_UIViewController", referenced from:
+o      _OBJC_METACLASS_$_TimeViewController in TimeViewController.o
+o  "_OBJC_CLASS_$_NSTimer", referenced from:
+o      objc-class-ref-to-NSTimer in TimeViewController.o
+o  "_objc_msgSend_fpret", referenced from:
+o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o  "_OBJC_CLASS_$_NSString", referenced from:
+o      objc-class-ref-to-NSString in TimeViewController.o
+o  "_OBJC_CLASS_$_NSObject", referenced from:
+o      _OBJC_CLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o
+o      _OBJC_CLASS_$_RoseTime in RoseTime.o
+o      _OBJC_CLASS_$_RTActualTimeSource in RTTimeSource.o
+o      _OBJC_CLASS_$_RTFixedTimeSource in RTTimeSource.o
+o  "__objc_empty_vtable", referenced from:
+o      _OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o
+o      _OBJC_CLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o
+o      _OBJC_METACLASS_$_TimeViewController in TimeViewController.o
+o      _OBJC_CLASS_$_TimeViewController in TimeViewController.o
+o      _OBJC_METACLASS_$_RoseTime in RoseTime.o
+o      _OBJC_CLASS_$_RoseTime in RoseTime.o
+o      _OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o
+o      _OBJC_CLASS_$_RTActualTimeSource in RTTimeSource.o
+o      _OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o
+o      _OBJC_CLASS_$_RTFixedTimeSource in RTTimeSource.o
+o  "_OBJC_CLASS_$_NSTimeZone", referenced from:
+o      objc-class-ref-to-NSTimeZone in RTTimeSource.o
+o  "_OBJC_CLASS_$_UIAlertView", referenced from:
+o      objc-class-ref-to-UIAlertView in TimeViewController.o
+o  "_OBJC_CLASS_$_NSCalendar", referenced from:
+o      objc-class-ref-to-NSCalendar in RTTimeSource.o
+o  "_NSLog", referenced from:
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o  "_objc_setProperty", referenced from:
+o      -[iRoseTimeAppDelegate setTabBarController:] in iRoseTimeAppDelegate.o
+o      -[iRoseTimeAppDelegate setWindow:] in iRoseTimeAppDelegate.o
+o      -[TimeViewController setReticuleView:] in TimeViewController.o
+o      -[TimeViewController setTimeBarView:] in TimeViewController.o
+o      -[TimeViewController setCountDownLabel:] in TimeViewController.o
+o      -[TimeViewController setCurrentTimeLabel:] in TimeViewController.o
+o      -[TimeViewController setRoseTime:] in TimeViewController.o
+o      -[RoseTime setBellTimes:] in RoseTime.o
+o      -[RoseTime setFormatter:] in RoseTime.o
+o      -[RoseTime setTimeSource:] in RoseTime.o
+o  "_objc_msgSend", referenced from:
+o      _main in main.o
+o      _main in main.o
+o      _main in main.o
+o      -[iRoseTimeAppDelegate application:didFinishLaunchingWithOptions:] in iRoseTimeAppDelegate.o
+o      -[iRoseTimeAppDelegate application:didFinishLaunchingWithOptions:] in iRoseTimeAppDelegate.o
+o      -[iRoseTimeAppDelegate application:didFinishLaunchingWithOptions:] in iRoseTimeAppDelegate.o
+o      -[iRoseTimeAppDelegate dealloc] in iRoseTimeAppDelegate.o
+o      -[iRoseTimeAppDelegate dealloc] in iRoseTimeAppDelegate.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o
+o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o
+o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o
+o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o
+o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o
+o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o
+o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o
+o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o
+o      -[TimeViewController viewDidLoad] in TimeViewController.o
+o      -[TimeViewController viewDidLoad] in TimeViewController.o
+o      -[TimeViewController viewDidLoad] in TimeViewController.o
+o      -[TimeViewController viewDidLoad] in TimeViewController.o
+o      -[TimeViewController viewDidLoad] in TimeViewController.o
+o      -[TimeViewController viewDidLoad] in TimeViewController.o
+o      -[TimeViewController viewDidLoad] in TimeViewController.o
+o      -[TimeViewController viewDidLoad] in TimeViewController.o
+o      -[TimeViewController viewDidUnload] in TimeViewController.o
+o      -[TimeViewController viewDidUnload] in TimeViewController.o
+o      -[TimeViewController viewDidUnload] in TimeViewController.o
+o      -[TimeViewController dealloc] in TimeViewController.o
+o      -[TimeViewController dealloc] in TimeViewController.o
+o      -[TimeViewController dealloc] in TimeViewController.o
+o      -[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o
+o      -[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o
+o      -[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o
+o      -[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o
+o      -[RoseTime initWithTimeSource:] in RoseTime.o
+o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o
+o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o
+o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o
+o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o
+o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o
+o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o
+o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o
+o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o
+o      -[RoseTime secondsUntilNextBell] in RoseTime.o
+o      -[RoseTime secondsUntilNextBell] in RoseTime.o
+o      -[RoseTime secondsUntilNextBell] in RoseTime.o
+o      -[RoseTime secondsUntilNextBell] in RoseTime.o
+o      -[RoseTime secondsUntilNextBell] in RoseTime.o
+o      -[RoseTime secondsUntilNextBell] in RoseTime.o
+o      -[RoseTime secondsUntilNextBell] in RoseTime.o
+o      -[RoseTime secondsUntilNextBell] in RoseTime.o
+o      -[RoseTime secondsUntilNextBell] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime currentTimeAsString] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o      -[RoseTime synchronizeToBellAt:] in RoseTime.o
+o      -[RoseTime initializeFormatter] in RoseTime.o
+o      -[RoseTime initializeFormatter] in RoseTime.o
+o      -[RoseTime initializeFormatter] in RoseTime.o
+o      -[RoseTime initializeFormatter] in RoseTime.o
+o      -[RoseTime initializeFormatter] in RoseTime.o
+o      -[RoseTime initializeFormatter] in RoseTime.o
+o      -[RoseTime initializeFormatter] in RoseTime.o
+o      -[RoseTime initializeFormatter] in RoseTime.o
+o      -[RoseTime initializeFormatter] in RoseTime.o
+o      -[RoseTime initializeFormatter] in RoseTime.o
+o      -[RoseTime initializeFormatter] in RoseTime.o
+o      -[RoseTime initializeBellTimes] in RoseTime.o
+o      -[RoseTime initializeBellTimes] in RoseTime.o
+o      -[RoseTime initializeBellTimes] in RoseTime.o
+o      -[RoseTime initializeBellTimes] in RoseTime.o
+o      -[RoseTime initializeBellTimes] in RoseTime.o
+o      -[RoseTime initializeBellTimes] in RoseTime.o
+o      -[RoseTime init] in RoseTime.o
+o      -[RoseTime init] in RoseTime.o
+o      -[RoseTime init] in RoseTime.o
+o      -[RoseTime init] in RoseTime.o
+o      -[RoseTime dealloc] in RoseTime.o
+o      -[RoseTime dealloc] in RoseTime.o
+o      -[RoseTime dealloc] in RoseTime.o
+o      -[RTFixedTimeSource initWithTime:] in RTTimeSource.o
+o      -[RTFixedTimeSource currentTime] in RTTimeSource.o
+o      -[RTFixedTimeSource timeZone] in RTTimeSource.o
+o      -[RTFixedTimeSource timeZone] in RTTimeSource.o
+o      -[RTFixedTimeSource timeZone] in RTTimeSource.o
+o      -[RTFixedTimeSource timeZone] in RTTimeSource.o
+o      -[RTFixedTimeSource timeZone] in RTTimeSource.o
+o      -[RTFixedTimeSource calendar] in RTTimeSource.o
+o      -[RTFixedTimeSource calendar] in RTTimeSource.o
+o      -[RTFixedTimeSource calendar] in RTTimeSource.o
+o      -[RTFixedTimeSource calendar] in RTTimeSource.o
+o      -[RTFixedTimeSource calendar] in RTTimeSource.o
+o      -[RTFixedTimeSource init] in RTTimeSource.o
+o      -[RTFixedTimeSource init] in RTTimeSource.o
+o      -[RTFixedTimeSource dealloc] in RTTimeSource.o
+o      -[RTActualTimeSource currentTime] in RTTimeSource.o
+o      -[RTActualTimeSource timeZone] in RTTimeSource.o
+o      -[RTActualTimeSource calendar] in RTTimeSource.o
+o      -[RTActualTimeSource calendar] in RTTimeSource.o
+o      -[RTActualTimeSource calendar] in RTTimeSource.o
+o      -[RTActualTimeSource calendar] in RTTimeSource.o
+o      -[RTActualTimeSource calendar] in RTTimeSource.o
+o  "_OBJC_CLASS_$_NSDateFormatter", referenced from:
+o      objc-class-ref-to-NSDateFormatter in RoseTime.o
+o  "_OBJC_METACLASS_$_NSObject", referenced from:
+o      _OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o
+o      _OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o
+o      _OBJC_METACLASS_$_TimeViewController in TimeViewController.o
+o      _OBJC_METACLASS_$_RoseTime in RoseTime.o
+o      _OBJC_METACLASS_$_RoseTime in RoseTime.o
+o      _OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o
+o      _OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o
+o      _OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o
+o      _OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o
+o  "_OBJC_CLASS_$_NSDate", referenced from:
+o      objc-class-ref-to-NSDate in TimeViewController.o
+o      objc-class-ref-to-NSDate in RTTimeSource.o
+o  "_OBJC_CLASS_$_NSNumber", referenced from:
+o      objc-class-ref-to-NSNumber in RoseTime.o
+o  "_OBJC_CLASS_$_NSDateComponents", referenced from:
+o      objc-class-ref-to-NSDateComponents in RoseTime.o
+o  "_OBJC_CLASS_$_UIViewController", referenced from:
+o      _OBJC_CLASS_$_TimeViewController in TimeViewController.o
+o  "_OBJC_CLASS_$_NSLocale", referenced from:
+o      objc-class-ref-to-NSLocale in RoseTime.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@104"Link /Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime312327974#312327974#0(16122"Undefined symbols:  "_NSGregorianCalendar", referenced from:      _NSGregorianCalendar$non_lazy_ptr in RTTimeSource.o     (maybe you meant: _NSGregorianCalendar$non_lazy_ptr)  "__objc_empty_cache", referenced from:      _OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o      _OBJC_CLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o      _OBJC_METACLASS_$_TimeViewController in TimeViewController.o      _OBJC_CLASS_$_TimeViewController in TimeViewController.o      _OBJC_METACLASS_$_RoseTime in RoseTime.o      _OBJC_CLASS_$_RoseTime in RoseTime.o      _OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o      _OBJC_CLASS_$_RTActualTimeSource in RTTimeSource.o      _OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o      _OBJC_CLASS_$_RTFixedTimeSource in RTTimeSource.o  "_UIApplicationMain", referenced from:      _main in main.o  "_OBJC_CLASS_$_UIView", referenced from:      objc-class-ref-to-UIView in TimeViewController.o  "_OBJC_CLASS_$_NSMutableArray", referenced from:      objc-class-ref-to-NSMutableArray in RoseTime.o  "_objc_enumerationMutation", referenced from:      -[RoseTime secondsUntilNextBell] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o  "___CFConstantStringClassReference", referenced from:      cfstring=Update Time in TimeViewController.o      cfstring=%d:%02d in TimeViewController.o      cfstring=Setting y location of time bar to %.2f in TimeViewController.o      cfstring-utf16=004F.004B.002C.0020.0049.2019.006C.006C.0020.0074.0072.0079.0020.006C.0061.0074.0065.0072 in TimeViewController.o      cfstring-utf16=0053.006F.0072.0072.0079.002C.0020.0062.0075.0074.0020.0074.0068.0065.0020.0064.0065.0076.0069.0063.0065.0020.0074.0069.006D.0065.0020.0069.0073.006E.2019.0074.0020.0063.006C.006F.0073.0065.0020.0065.006E.006F.0075.0067.0068.0020.0074.006F.0020.0061.006E.0020.0065.0078.0070.0065.0063.0074.0065.0064.0020.0062.0065.006C.006C.0020.0074.0069.006D.0065.0020.0074.006F.0020.0061.0075.0074.006F.006D.0061.0074.0069.0063.0061.006C.006C.0079.0020.0073.0079.006E.0063.0068.0072.006F.006E.0069.007A.0065.002E.0000 in TimeViewController.o      cfstring=Unable to synchronize with bells now in TimeViewController.o      cfstring=en_US in RoseTime.o      cfstring=am in RoseTime.o      cfstring=pm in RoseTime.o      cfstring=America/Indiana/Indianapolis in RTTimeSource.o  "_OBJC_CLASS_$_NSAutoreleasePool", referenced from:      objc-class-ref-to-NSAutoreleasePool in main.o  "_objc_msgSendSuper2", referenced from:      -[iRoseTimeAppDelegate dealloc] in iRoseTimeAppDelegate.o      -[TimeViewController viewDidLoad] in TimeViewController.o      -[TimeViewController didReceiveMemoryWarning] in TimeViewController.o      -[TimeViewController dealloc] in TimeViewController.o      -[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o      -[RoseTime dealloc] in RoseTime.o      -[RTFixedTimeSource initWithTime:] in RTTimeSource.o      -[RTFixedTimeSource dealloc] in RTTimeSource.o      -[RTActualTimeSource dealloc] in RTTimeSource.o  "_OBJC_METACLASS_$_UIViewController", referenced from:      _OBJC_METACLASS_$_TimeViewController in TimeViewController.o  "_OBJC_CLASS_$_NSTimer", referenced from:      objc-class-ref-to-NSTimer in TimeViewController.o  "_objc_msgSend_fpret", referenced from:      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o  "_OBJC_CLASS_$_NSString", referenced from:      objc-class-ref-to-NSString in TimeViewController.o  "_OBJC_CLASS_$_NSObject", referenced from:      _OBJC_CLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o      _OBJC_CLASS_$_RoseTime in RoseTime.o      _OBJC_CLASS_$_RTActualTimeSource in RTTimeSource.o      _OBJC_CLASS_$_RTFixedTimeSource in RTTimeSource.o  "__objc_empty_vtable", referenced from:      _OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o      _OBJC_CLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o      _OBJC_METACLASS_$_TimeViewController in TimeViewController.o      _OBJC_CLASS_$_TimeViewController in TimeViewController.o      _OBJC_METACLASS_$_RoseTime in RoseTime.o      _OBJC_CLASS_$_RoseTime in RoseTime.o      _OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o      _OBJC_CLASS_$_RTActualTimeSource in RTTimeSource.o      _OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o      _OBJC_CLASS_$_RTFixedTimeSource in RTTimeSource.o  "_OBJC_CLASS_$_NSTimeZone", referenced from:      objc-class-ref-to-NSTimeZone in RTTimeSource.o  "_OBJC_CLASS_$_UIAlertView", referenced from:      objc-class-ref-to-UIAlertView in TimeViewController.o  "_OBJC_CLASS_$_NSCalendar", referenced from:      objc-class-ref-to-NSCalendar in RTTimeSource.o  "_NSLog", referenced from:      -[TimeViewController updateTimeDisplay:] in TimeViewController.o  "_objc_setProperty", referenced from:      -[iRoseTimeAppDelegate setTabBarController:] in iRoseTimeAppDelegate.o      -[iRoseTimeAppDelegate setWindow:] in iRoseTimeAppDelegate.o      -[TimeViewController setReticuleView:] in TimeViewController.o      -[TimeViewController setTimeBarView:] in TimeViewController.o      -[TimeViewController setCountDownLabel:] in TimeViewController.o      -[TimeViewController setCurrentTimeLabel:] in TimeViewController.o      -[TimeViewController setRoseTime:] in TimeViewController.o      -[RoseTime setBellTimes:] in RoseTime.o      -[RoseTime setFormatter:] in RoseTime.o      -[RoseTime setTimeSource:] in RoseTime.o  "_objc_msgSend", referenced from:      _main in main.o      _main in main.o      _main in main.o      -[iRoseTimeAppDelegate application:didFinishLaunchingWithOptions:] in iRoseTimeAppDelegate.o      -[iRoseTimeAppDelegate application:didFinishLaunchingWithOptions:] in iRoseTimeAppDelegate.o      -[iRoseTimeAppDelegate application:didFinishLaunchingWithOptions:] in iRoseTimeAppDelegate.o      -[iRoseTimeAppDelegate dealloc] in iRoseTimeAppDelegate.o      -[iRoseTimeAppDelegate dealloc] in iRoseTimeAppDelegate.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController updateTimeDisplay:] in TimeViewController.o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o      -[TimeViewController synchronizeToBellNow] in TimeViewController.o      -[TimeViewController viewDidLoad] in TimeViewController.o      -[TimeViewController viewDidLoad] in TimeViewController.o      -[TimeViewController viewDidLoad] in TimeViewController.o      -[TimeViewController viewDidLoad] in TimeViewController.o      -[TimeViewController viewDidLoad] in TimeViewController.o      -[TimeViewController viewDidLoad] in TimeViewController.o      -[TimeViewController viewDidLoad] in TimeViewController.o      -[TimeViewController viewDidLoad] in TimeViewController.o      -[TimeViewController viewDidUnload] in TimeViewController.o      -[TimeViewController viewDidUnload] in TimeViewController.o      -[TimeViewController viewDidUnload] in TimeViewController.o      -[TimeViewController dealloc] in TimeViewController.o      -[TimeViewController dealloc] in TimeViewController.o      -[TimeViewController dealloc] in TimeViewController.o      -[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o      -[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o      -[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o      -[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o      -[RoseTime initWithTimeSource:] in RoseTime.o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o      -[RoseTime secondsPastMidnightAtRose] in RoseTime.o      -[RoseTime secondsUntilNextBell] in RoseTime.o      -[RoseTime secondsUntilNextBell] in RoseTime.o      -[RoseTime secondsUntilNextBell] in RoseTime.o      -[RoseTime secondsUntilNextBell] in RoseTime.o      -[RoseTime secondsUntilNextBell] in RoseTime.o      -[RoseTime secondsUntilNextBell] in RoseTime.o      -[RoseTime secondsUntilNextBell] in RoseTime.o      -[RoseTime secondsUntilNextBell] in RoseTime.o      -[RoseTime secondsUntilNextBell] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime currentTimeAsString] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o      -[RoseTime synchronizeToBellAt:] in RoseTime.o      -[RoseTime initializeFormatter] in RoseTime.o      -[RoseTime initializeFormatter] in RoseTime.o      -[RoseTime initializeFormatter] in RoseTime.o      -[RoseTime initializeFormatter] in RoseTime.o      -[RoseTime initializeFormatter] in RoseTime.o      -[RoseTime initializeFormatter] in RoseTime.o      -[RoseTime initializeFormatter] in RoseTime.o      -[RoseTime initializeFormatter] in RoseTime.o      -[RoseTime initializeFormatter] in RoseTime.o      -[RoseTime initializeFormatter] in RoseTime.o      -[RoseTime initializeFormatter] in RoseTime.o      -[RoseTime initializeBellTimes] in RoseTime.o      -[RoseTime initializeBellTimes] in RoseTime.o      -[RoseTime initializeBellTimes] in RoseTime.o      -[RoseTime initializeBellTimes] in RoseTime.o      -[RoseTime initializeBellTimes] in RoseTime.o      -[RoseTime initializeBellTimes] in RoseTime.o      -[RoseTime init] in RoseTime.o      -[RoseTime init] in RoseTime.o      -[RoseTime init] in RoseTime.o      -[RoseTime init] in RoseTime.o      -[RoseTime dealloc] in RoseTime.o      -[RoseTime dealloc] in RoseTime.o      -[RoseTime dealloc] in RoseTime.o      -[RTFixedTimeSource initWithTime:] in RTTimeSource.o      -[RTFixedTimeSource currentTime] in RTTimeSource.o      -[RTFixedTimeSource timeZone] in RTTimeSource.o      -[RTFixedTimeSource timeZone] in RTTimeSource.o      -[RTFixedTimeSource timeZone] in RTTimeSource.o      -[RTFixedTimeSource timeZone] in RTTimeSource.o      -[RTFixedTimeSource timeZone] in RTTimeSource.o      -[RTFixedTimeSource calendar] in RTTimeSource.o      -[RTFixedTimeSource calendar] in RTTimeSource.o      -[RTFixedTimeSource calendar] in RTTimeSource.o      -[RTFixedTimeSource calendar] in RTTimeSource.o      -[RTFixedTimeSource calendar] in RTTimeSource.o      -[RTFixedTimeSource init] in RTTimeSource.o      -[RTFixedTimeSource init] in RTTimeSource.o      -[RTFixedTimeSource dealloc] in RTTimeSource.o      -[RTActualTimeSource currentTime] in RTTimeSource.o      -[RTActualTimeSource timeZone] in RTTimeSource.o      -[RTActualTimeSource calendar] in RTTimeSource.o      -[RTActualTimeSource calendar] in RTTimeSource.o      -[RTActualTimeSource calendar] in RTTimeSource.o      -[RTActualTimeSource calendar] in RTTimeSource.o      -[RTActualTimeSource calendar] in RTTimeSource.o  "_OBJC_CLASS_$_NSDateFormatter", referenced from:      objc-class-ref-to-NSDateFormatter in RoseTime.o  "_OBJC_METACLASS_$_NSObject", referenced from:      _OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o      _OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o      _OBJC_METACLASS_$_TimeViewController in TimeViewController.o      _OBJC_METACLASS_$_RoseTime in RoseTime.o      _OBJC_METACLASS_$_RoseTime in RoseTime.o      _OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o      _OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o      _OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o      _OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o  "_OBJC_CLASS_$_NSDate", referenced from:      objc-class-ref-to-NSDate in TimeViewController.o      objc-class-ref-to-NSDate in RTTimeSource.o  "_OBJC_CLASS_$_NSNumber", referenced from:      objc-class-ref-to-NSNumber in RoseTime.o  "_OBJC_CLASS_$_NSDateComponents", referenced from:      objc-class-ref-to-NSDateComponents in RoseTime.o  "_OBJC_CLASS_$_UIViewController", referenced from:      _OBJC_CLASS_$_TimeViewController in TimeViewController.o  "_OBJC_CLASS_$_NSLocale", referenced from:      objc-class-ref-to-NSLocale in RoseTime.old: symbol(s) not foundcollect2: ld returned 1 exit status272(4@40""_NSGregorianCalendar", referenced from:312327974#19#43#0(6@0"312327974#0#0#0#0#0"0(13@51"_NSGregorianCalendar$non_lazy_ptr in RTTimeSource.o312327974#62#58#0(6@0"312327974#0#0#0#0#0"0(13@52"(maybe you meant: _NSGregorianCalendar$non_lazy_ptr)312327974#120#58#0(6@0"312327974#0#0#0#0#0"0(4@38""__objc_empty_cache", referenced from:312327974#178#41#0(6@0"312327974#0#0#0#0#0"0(13@64"_OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o312327974#219#71#0(6@0"312327974#0#0#0#0#0"0(13@60"_OBJC_CLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o312327974#290#67#0(6@0"312327974#0#0#0#0#0"0(13@60"_OBJC_METACLASS_$_TimeViewController in TimeViewController.o312327974#357#67#0(6@0"312327974#0#0#0#0#0"0(13@56"_OBJC_CLASS_$_TimeViewController in TimeViewController.o312327974#424#63#0(6@0"312327974#0#0#0#0#0"0(13@40"_OBJC_METACLASS_$_RoseTime in RoseTime.o312327974#487#47#0(6@0"312327974#0#0#0#0#0"0(13@36"_OBJC_CLASS_$_RoseTime in RoseTime.o312327974#534#43#0(6@0"312327974#0#0#0#0#0"0(13@54"_OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o312327974#577#61#0(6@0"312327974#0#0#0#0#0"0(13@50"_OBJC_CLASS_$_RTActualTimeSource in RTTimeSource.o312327974#638#57#0(6@0"312327974#0#0#0#0#0"0(13@53"_OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o312327974#695#60#0(6@0"312327974#0#0#0#0#0"0(13@49"_OBJC_CLASS_$_RTFixedTimeSource in RTTimeSource.o312327974#755#56#0(6@0"312327974#0#0#0#0#0"0(4@38""_UIApplicationMain", referenced from:312327974#811#41#0(6@0"312327974#0#0#0#0#0"0(13@15"_main in main.o312327974#852#22#0(6@0"312327974#0#0#0#0#0"0(4@40""_OBJC_CLASS_$_UIView", referenced from:312327974#874#43#0(6@0"312327974#0#0#0#0#0"0(13@48"Objc-class-ref-to-UIView in TimeViewController.o312327974#917#55#0(6@0"312327974#0#0#0#0#0"0(4@48""_OBJC_CLASS_$_NSMutableArray", referenced from:312327974#972#51#0(6@0"312327974#0#0#0#0#0"0(13@46"Objc-class-ref-to-NSMutableArray in RoseTime.o312327974#1023#53#0(6@0"312327974#0#0#0#0#0"0(4@45""_objc_enumerationMutation", referenced from:312327974#1076#48#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime secondsUntilNextBell] in RoseTime.o312327974#1124#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#1177#53#0(6@0"312327974#0#0#0#0#0"0(4@53""___CFConstantStringClassReference", referenced from:312327974#1230#56#0(6@0"312327974#0#0#0#0#0"0(13@44"Cfstring=Update Time in TimeViewController.o312327974#1286#51#0(6@0"312327974#0#0#0#0#0"0(13@40"Cfstring=%d:%02d in TimeViewController.o312327974#1337#47#0(6@0"312327974#0#0#0#0#0"0(13@71"Cfstring=Setting y location of time bar to %.2f in TimeViewController.o312327974#1384#78#0(6@0"312327974#0#0#0#0#0"0(13@128"Cfstring-utf16=004F.004B.002C.0020.0049.2019.006C.006C.0020.0074.0072.0079.0020.006C.0061.0074.0065.0072 in TimeViewController.o312327974#1462#135#0(6@0"312327974#0#0#0#0#0"0(13@543"Cfstring-utf16=0053.006F.0072.0072.0079.002C.0020.0062.0075.0074.0020.0074.0068.0065.0020.0064.0065.0076.0069.0063.0065.0020.0074.0069.006D.0065.0020.0069.0073.006E.2019.0074.0020.0063.006C.006F.0073.0065.0020.0065.006E.006F.0075.0067.0068.0020.0074.006F.0020.0061.006E.0020.0065.0078.0070.0065.0063.0074.0065.0064.0020.0062.0065.006C.006C.0020.0074.0069.006D.0065.0020.0074.006F.0020.0061.0075.0074.006F.006D.0061.0074.0069.0063.0061.006C.006C.0079.0020.0073.0079.006E.0063.0068.0072.006F.006E.0069.007A.0065.002E.0000 in TimeViewController.o312327974#1597#550#0(6@0"312327974#0#0#0#0#0"0(13@69"Cfstring=Unable to synchronize with bells now in TimeViewController.o312327974#2147#76#0(6@0"312327974#0#0#0#0#0"0(13@28"Cfstring=en_US in RoseTime.o312327974#2223#35#0(6@0"312327974#0#0#0#0#0"0(13@25"Cfstring=am in RoseTime.o312327974#2258#32#0(6@0"312327974#0#0#0#0#0"0(13@25"Cfstring=pm in RoseTime.o312327974#2290#32#0(6@0"312327974#0#0#0#0#0"0(13@55"Cfstring=America/Indiana/Indianapolis in RTTimeSource.o312327974#2322#62#0(6@0"312327974#0#0#0#0#0"0(4@51""_OBJC_CLASS_$_NSAutoreleasePool", referenced from:312327974#2384#54#0(6@0"312327974#0#0#0#0#0"0(13@45"Objc-class-ref-to-NSAutoreleasePool in main.o312327974#2438#52#0(6@0"312327974#0#0#0#0#0"0(4@39""_objc_msgSendSuper2", referenced from:312327974#2490#42#0(6@0"312327974#0#0#0#0#0"0(13@57"-[iRoseTimeAppDelegate dealloc] in iRoseTimeAppDelegate.o312327974#2532#64#0(6@0"312327974#0#0#0#0#0"0(13@57"-[TimeViewController viewDidLoad] in TimeViewController.o312327974#2596#64#0(6@0"312327974#0#0#0#0#0"0(13@69"-[TimeViewController didReceiveMemoryWarning] in TimeViewController.o312327974#2660#76#0(6@0"312327974#0#0#0#0#0"0(13@53"-[TimeViewController dealloc] in TimeViewController.o312327974#2736#60#0(6@0"312327974#0#0#0#0#0"0(13@56"-[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o312327974#2796#63#0(6@0"312327974#0#0#0#0#0"0(13@33"-[RoseTime dealloc] in RoseTime.o312327974#2859#40#0(6@0"312327974#0#0#0#0#0"0(13@52"-[RTFixedTimeSource initWithTime:] in RTTimeSource.o312327974#2899#59#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RTFixedTimeSource dealloc] in RTTimeSource.o312327974#2958#53#0(6@0"312327974#0#0#0#0#0"0(13@47"-[RTActualTimeSource dealloc] in RTTimeSource.o312327974#3011#54#0(6@0"312327974#0#0#0#0#0"0(4@54""_OBJC_METACLASS_$_UIViewController", referenced from:312327974#3065#57#0(6@0"312327974#0#0#0#0#0"0(13@60"_OBJC_METACLASS_$_TimeViewController in TimeViewController.o312327974#3122#67#0(6@0"312327974#0#0#0#0#0"0(4@41""_OBJC_CLASS_$_NSTimer", referenced from:312327974#3189#44#0(6@0"312327974#0#0#0#0#0"0(13@49"Objc-class-ref-to-NSTimer in TimeViewController.o312327974#3233#56#0(6@0"312327974#0#0#0#0#0"0(4@39""_objc_msgSend_fpret", referenced from:312327974#3289#42#0(6@0"312327974#0#0#0#0#0"0(13@51"-[RoseTime secondsPastMidnightAtRose] in RoseTime.o312327974#3331#58#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#3389#52#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#3441#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#3494#53#0(6@0"312327974#0#0#0#0#0"0(4@42""_OBJC_CLASS_$_NSString", referenced from:312327974#3547#45#0(6@0"312327974#0#0#0#0#0"0(13@50"Objc-class-ref-to-NSString in TimeViewController.o312327974#3592#57#0(6@0"312327974#0#0#0#0#0"0(4@42""_OBJC_CLASS_$_NSObject", referenced from:312327974#3649#45#0(6@0"312327974#0#0#0#0#0"0(13@60"_OBJC_CLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o312327974#3694#67#0(6@0"312327974#0#0#0#0#0"0(13@36"_OBJC_CLASS_$_RoseTime in RoseTime.o312327974#3761#43#0(6@0"312327974#0#0#0#0#0"0(13@50"_OBJC_CLASS_$_RTActualTimeSource in RTTimeSource.o312327974#3804#57#0(6@0"312327974#0#0#0#0#0"0(13@49"_OBJC_CLASS_$_RTFixedTimeSource in RTTimeSource.o312327974#3861#56#0(6@0"312327974#0#0#0#0#0"0(4@39""__objc_empty_vtable", referenced from:312327974#3917#42#0(6@0"312327974#0#0#0#0#0"0(13@64"_OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o312327974#3959#71#0(6@0"312327974#0#0#0#0#0"0(13@60"_OBJC_CLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o312327974#4030#67#0(6@0"312327974#0#0#0#0#0"0(13@60"_OBJC_METACLASS_$_TimeViewController in TimeViewController.o312327974#4097#67#0(6@0"312327974#0#0#0#0#0"0(13@56"_OBJC_CLASS_$_TimeViewController in TimeViewController.o312327974#4164#63#0(6@0"312327974#0#0#0#0#0"0(13@40"_OBJC_METACLASS_$_RoseTime in RoseTime.o312327974#4227#47#0(6@0"312327974#0#0#0#0#0"0(13@36"_OBJC_CLASS_$_RoseTime in RoseTime.o312327974#4274#43#0(6@0"312327974#0#0#0#0#0"0(13@54"_OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o312327974#4317#61#0(6@0"312327974#0#0#0#0#0"0(13@50"_OBJC_CLASS_$_RTActualTimeSource in RTTimeSource.o312327974#4378#57#0(6@0"312327974#0#0#0#0#0"0(13@53"_OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o312327974#4435#60#0(6@0"312327974#0#0#0#0#0"0(13@49"_OBJC_CLASS_$_RTFixedTimeSource in RTTimeSource.o312327974#4495#56#0(6@0"312327974#0#0#0#0#0"0(4@44""_OBJC_CLASS_$_NSTimeZone", referenced from:312327974#4551#47#0(6@0"312327974#0#0#0#0#0"0(13@46"Objc-class-ref-to-NSTimeZone in RTTimeSource.o312327974#4598#53#0(6@0"312327974#0#0#0#0#0"0(4@45""_OBJC_CLASS_$_UIAlertView", referenced from:312327974#4651#48#0(6@0"312327974#0#0#0#0#0"0(13@53"Objc-class-ref-to-UIAlertView in TimeViewController.o312327974#4699#60#0(6@0"312327974#0#0#0#0#0"0(4@44""_OBJC_CLASS_$_NSCalendar", referenced from:312327974#4759#47#0(6@0"312327974#0#0#0#0#0"0(13@46"Objc-class-ref-to-NSCalendar in RTTimeSource.o312327974#4806#53#0(6@0"312327974#0#0#0#0#0"0(4@26""_NSLog", referenced from:312327974#4859#29#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#4888#71#0(6@0"312327974#0#0#0#0#0"0(4@37""_objc_setProperty", referenced from:312327974#4959#40#0(6@0"312327974#0#0#0#0#0"0(13@70"-[iRoseTimeAppDelegate setTabBarController:] in iRoseTimeAppDelegate.o312327974#4999#77#0(6@0"312327974#0#0#0#0#0"0(13@60"-[iRoseTimeAppDelegate setWindow:] in iRoseTimeAppDelegate.o312327974#5076#67#0(6@0"312327974#0#0#0#0#0"0(13@62"-[TimeViewController setReticuleView:] in TimeViewController.o312327974#5143#69#0(6@0"312327974#0#0#0#0#0"0(13@61"-[TimeViewController setTimeBarView:] in TimeViewController.o312327974#5212#68#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController setCountDownLabel:] in TimeViewController.o312327974#5280#71#0(6@0"312327974#0#0#0#0#0"0(13@66"-[TimeViewController setCurrentTimeLabel:] in TimeViewController.o312327974#5351#73#0(6@0"312327974#0#0#0#0#0"0(13@58"-[TimeViewController setRoseTime:] in TimeViewController.o312327974#5424#65#0(6@0"312327974#0#0#0#0#0"0(13@39"-[RoseTime setBellTimes:] in RoseTime.o312327974#5489#46#0(6@0"312327974#0#0#0#0#0"0(13@39"-[RoseTime setFormatter:] in RoseTime.o312327974#5535#46#0(6@0"312327974#0#0#0#0#0"0(13@40"-[RoseTime setTimeSource:] in RoseTime.o312327974#5581#47#0(6@0"312327974#0#0#0#0#0"0(4@33""_objc_msgSend", referenced from:312327974#5628#36#0(6@0"312327974#0#0#0#0#0"0(13@15"_main in main.o312327974#5664#22#0(6@0"312327974#0#0#0#0#0"0(13@15"_main in main.o312327974#5686#22#0(6@0"312327974#0#0#0#0#0"0(13@15"_main in main.o312327974#5708#22#0(6@0"312327974#0#0#0#0#0"0(13@92"-[iRoseTimeAppDelegate application:didFinishLaunchingWithOptions:] in iRoseTimeAppDelegate.o312327974#5730#99#0(6@0"312327974#0#0#0#0#0"0(13@92"-[iRoseTimeAppDelegate application:didFinishLaunchingWithOptions:] in iRoseTimeAppDelegate.o312327974#5829#99#0(6@0"312327974#0#0#0#0#0"0(13@92"-[iRoseTimeAppDelegate application:didFinishLaunchingWithOptions:] in iRoseTimeAppDelegate.o312327974#5928#99#0(6@0"312327974#0#0#0#0#0"0(13@57"-[iRoseTimeAppDelegate dealloc] in iRoseTimeAppDelegate.o312327974#6027#64#0(6@0"312327974#0#0#0#0#0"0(13@57"-[iRoseTimeAppDelegate dealloc] in iRoseTimeAppDelegate.o312327974#6091#64#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6155#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6226#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6297#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6368#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6439#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6510#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6581#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6652#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6723#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6794#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6865#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#6936#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7007#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7078#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7149#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7220#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7291#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7362#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7433#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7504#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7575#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7646#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7717#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7788#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7859#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#7930#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#8001#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#8072#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#8143#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#8214#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#8285#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#8356#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#8427#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#8498#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#8569#71#0(6@0"312327974#0#0#0#0#0"0(13@64"-[TimeViewController updateTimeDisplay:] in TimeViewController.o312327974#8640#71#0(6@0"312327974#0#0#0#0#0"0(13@66"-[TimeViewController synchronizeToBellNow] in TimeViewController.o312327974#8711#73#0(6@0"312327974#0#0#0#0#0"0(13@66"-[TimeViewController synchronizeToBellNow] in TimeViewController.o312327974#8784#73#0(6@0"312327974#0#0#0#0#0"0(13@66"-[TimeViewController synchronizeToBellNow] in TimeViewController.o312327974#8857#73#0(6@0"312327974#0#0#0#0#0"0(13@66"-[TimeViewController synchronizeToBellNow] in TimeViewController.o312327974#8930#73#0(6@0"312327974#0#0#0#0#0"0(13@66"-[TimeViewController synchronizeToBellNow] in TimeViewController.o312327974#9003#73#0(6@0"312327974#0#0#0#0#0"0(13@66"-[TimeViewController synchronizeToBellNow] in TimeViewController.o312327974#9076#73#0(6@0"312327974#0#0#0#0#0"0(13@66"-[TimeViewController synchronizeToBellNow] in TimeViewController.o312327974#9149#73#0(6@0"312327974#0#0#0#0#0"0(13@57"-[TimeViewController viewDidLoad] in TimeViewController.o312327974#9222#64#0(6@0"312327974#0#0#0#0#0"0(13@57"-[TimeViewController viewDidLoad] in TimeViewController.o312327974#9286#64#0(6@0"312327974#0#0#0#0#0"0(13@57"-[TimeViewController viewDidLoad] in TimeViewController.o312327974#9350#64#0(6@0"312327974#0#0#0#0#0"0(13@57"-[TimeViewController viewDidLoad] in TimeViewController.o312327974#9414#64#0(6@0"312327974#0#0#0#0#0"0(13@57"-[TimeViewController viewDidLoad] in TimeViewController.o312327974#9478#64#0(6@0"312327974#0#0#0#0#0"0(13@57"-[TimeViewController viewDidLoad] in TimeViewController.o312327974#9542#64#0(6@0"312327974#0#0#0#0#0"0(13@57"-[TimeViewController viewDidLoad] in TimeViewController.o312327974#9606#64#0(6@0"312327974#0#0#0#0#0"0(13@57"-[TimeViewController viewDidLoad] in TimeViewController.o312327974#9670#64#0(6@0"312327974#0#0#0#0#0"0(13@59"-[TimeViewController viewDidUnload] in TimeViewController.o312327974#9734#66#0(6@0"312327974#0#0#0#0#0"0(13@59"-[TimeViewController viewDidUnload] in TimeViewController.o312327974#9800#66#0(6@0"312327974#0#0#0#0#0"0(13@59"-[TimeViewController viewDidUnload] in TimeViewController.o312327974#9866#66#0(6@0"312327974#0#0#0#0#0"0(13@53"-[TimeViewController dealloc] in TimeViewController.o312327974#9932#60#0(6@0"312327974#0#0#0#0#0"0(13@53"-[TimeViewController dealloc] in TimeViewController.o312327974#9992#60#0(6@0"312327974#0#0#0#0#0"0(13@53"-[TimeViewController dealloc] in TimeViewController.o312327974#10052#60#0(6@0"312327974#0#0#0#0#0"0(13@56"-[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o312327974#10112#63#0(6@0"312327974#0#0#0#0#0"0(13@56"-[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o312327974#10175#63#0(6@0"312327974#0#0#0#0#0"0(13@56"-[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o312327974#10238#63#0(6@0"312327974#0#0#0#0#0"0(13@56"-[RoseTime initWithTimeSource:bellOffset:] in RoseTime.o312327974#10301#63#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initWithTimeSource:] in RoseTime.o312327974#10364#52#0(6@0"312327974#0#0#0#0#0"0(13@51"-[RoseTime secondsPastMidnightAtRose] in RoseTime.o312327974#10416#58#0(6@0"312327974#0#0#0#0#0"0(13@51"-[RoseTime secondsPastMidnightAtRose] in RoseTime.o312327974#10474#58#0(6@0"312327974#0#0#0#0#0"0(13@51"-[RoseTime secondsPastMidnightAtRose] in RoseTime.o312327974#10532#58#0(6@0"312327974#0#0#0#0#0"0(13@51"-[RoseTime secondsPastMidnightAtRose] in RoseTime.o312327974#10590#58#0(6@0"312327974#0#0#0#0#0"0(13@51"-[RoseTime secondsPastMidnightAtRose] in RoseTime.o312327974#10648#58#0(6@0"312327974#0#0#0#0#0"0(13@51"-[RoseTime secondsPastMidnightAtRose] in RoseTime.o312327974#10706#58#0(6@0"312327974#0#0#0#0#0"0(13@51"-[RoseTime secondsPastMidnightAtRose] in RoseTime.o312327974#10764#58#0(6@0"312327974#0#0#0#0#0"0(13@51"-[RoseTime secondsPastMidnightAtRose] in RoseTime.o312327974#10822#58#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime secondsUntilNextBell] in RoseTime.o312327974#10880#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime secondsUntilNextBell] in RoseTime.o312327974#10933#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime secondsUntilNextBell] in RoseTime.o312327974#10986#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime secondsUntilNextBell] in RoseTime.o312327974#11039#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime secondsUntilNextBell] in RoseTime.o312327974#11092#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime secondsUntilNextBell] in RoseTime.o312327974#11145#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime secondsUntilNextBell] in RoseTime.o312327974#11198#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime secondsUntilNextBell] in RoseTime.o312327974#11251#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime secondsUntilNextBell] in RoseTime.o312327974#11304#53#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11357#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11409#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11461#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11513#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11565#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11617#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11669#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11721#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11773#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11825#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11877#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime currentTimeAsString] in RoseTime.o312327974#11929#52#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#11981#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#12034#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#12087#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#12140#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#12193#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#12246#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#12299#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#12352#53#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RoseTime synchronizeToBellAt:] in RoseTime.o312327974#12405#53#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeFormatter] in RoseTime.o312327974#12458#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeFormatter] in RoseTime.o312327974#12510#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeFormatter] in RoseTime.o312327974#12562#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeFormatter] in RoseTime.o312327974#12614#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeFormatter] in RoseTime.o312327974#12666#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeFormatter] in RoseTime.o312327974#12718#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeFormatter] in RoseTime.o312327974#12770#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeFormatter] in RoseTime.o312327974#12822#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeFormatter] in RoseTime.o312327974#12874#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeFormatter] in RoseTime.o312327974#12926#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeFormatter] in RoseTime.o312327974#12978#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeBellTimes] in RoseTime.o312327974#13030#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeBellTimes] in RoseTime.o312327974#13082#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeBellTimes] in RoseTime.o312327974#13134#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeBellTimes] in RoseTime.o312327974#13186#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeBellTimes] in RoseTime.o312327974#13238#52#0(6@0"312327974#0#0#0#0#0"0(13@45"-[RoseTime initializeBellTimes] in RoseTime.o312327974#13290#52#0(6@0"312327974#0#0#0#0#0"0(13@30"-[RoseTime init] in RoseTime.o312327974#13342#37#0(6@0"312327974#0#0#0#0#0"0(13@30"-[RoseTime init] in RoseTime.o312327974#13379#37#0(6@0"312327974#0#0#0#0#0"0(13@30"-[RoseTime init] in RoseTime.o312327974#13416#37#0(6@0"312327974#0#0#0#0#0"0(13@30"-[RoseTime init] in RoseTime.o312327974#13453#37#0(6@0"312327974#0#0#0#0#0"0(13@33"-[RoseTime dealloc] in RoseTime.o312327974#13490#40#0(6@0"312327974#0#0#0#0#0"0(13@33"-[RoseTime dealloc] in RoseTime.o312327974#13530#40#0(6@0"312327974#0#0#0#0#0"0(13@33"-[RoseTime dealloc] in RoseTime.o312327974#13570#40#0(6@0"312327974#0#0#0#0#0"0(13@52"-[RTFixedTimeSource initWithTime:] in RTTimeSource.o312327974#13610#59#0(6@0"312327974#0#0#0#0#0"0(13@50"-[RTFixedTimeSource currentTime] in RTTimeSource.o312327974#13669#57#0(6@0"312327974#0#0#0#0#0"0(13@47"-[RTFixedTimeSource timeZone] in RTTimeSource.o312327974#13726#54#0(6@0"312327974#0#0#0#0#0"0(13@47"-[RTFixedTimeSource timeZone] in RTTimeSource.o312327974#13780#54#0(6@0"312327974#0#0#0#0#0"0(13@47"-[RTFixedTimeSource timeZone] in RTTimeSource.o312327974#13834#54#0(6@0"312327974#0#0#0#0#0"0(13@47"-[RTFixedTimeSource timeZone] in RTTimeSource.o312327974#13888#54#0(6@0"312327974#0#0#0#0#0"0(13@47"-[RTFixedTimeSource timeZone] in RTTimeSource.o312327974#13942#54#0(6@0"312327974#0#0#0#0#0"0(13@47"-[RTFixedTimeSource calendar] in RTTimeSource.o312327974#13996#54#0(6@0"312327974#0#0#0#0#0"0(13@47"-[RTFixedTimeSource calendar] in RTTimeSource.o312327974#14050#54#0(6@0"312327974#0#0#0#0#0"0(13@47"-[RTFixedTimeSource calendar] in RTTimeSource.o312327974#14104#54#0(6@0"312327974#0#0#0#0#0"0(13@47"-[RTFixedTimeSource calendar] in RTTimeSource.o312327974#14158#54#0(6@0"312327974#0#0#0#0#0"0(13@47"-[RTFixedTimeSource calendar] in RTTimeSource.o312327974#14212#54#0(6@0"312327974#0#0#0#0#0"0(13@43"-[RTFixedTimeSource init] in RTTimeSource.o312327974#14266#50#0(6@0"312327974#0#0#0#0#0"0(13@43"-[RTFixedTimeSource init] in RTTimeSource.o312327974#14316#50#0(6@0"312327974#0#0#0#0#0"0(13@46"-[RTFixedTimeSource dealloc] in RTTimeSource.o312327974#14366#53#0(6@0"312327974#0#0#0#0#0"0(13@51"-[RTActualTimeSource currentTime] in RTTimeSource.o312327974#14419#58#0(6@0"312327974#0#0#0#0#0"0(13@48"-[RTActualTimeSource timeZone] in RTTimeSource.o312327974#14477#55#0(6@0"312327974#0#0#0#0#0"0(13@48"-[RTActualTimeSource calendar] in RTTimeSource.o312327974#14532#55#0(6@0"312327974#0#0#0#0#0"0(13@48"-[RTActualTimeSource calendar] in RTTimeSource.o312327974#14587#55#0(6@0"312327974#0#0#0#0#0"0(13@48"-[RTActualTimeSource calendar] in RTTimeSource.o312327974#14642#55#0(6@0"312327974#0#0#0#0#0"0(13@48"-[RTActualTimeSource calendar] in RTTimeSource.o312327974#14697#55#0(6@0"312327974#0#0#0#0#0"0(13@48"-[RTActualTimeSource calendar] in RTTimeSource.o312327974#14752#55#0(6@0"312327974#0#0#0#0#0"0(4@49""_OBJC_CLASS_$_NSDateFormatter", referenced from:312327974#14807#52#0(6@0"312327974#0#0#0#0#0"0(13@47"Objc-class-ref-to-NSDateFormatter in RoseTime.o312327974#14859#54#0(6@0"312327974#0#0#0#0#0"0(4@46""_OBJC_METACLASS_$_NSObject", referenced from:312327974#14913#49#0(6@0"312327974#0#0#0#0#0"0(13@64"_OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o312327974#14962#71#0(6@0"312327974#0#0#0#0#0"0(13@64"_OBJC_METACLASS_$_iRoseTimeAppDelegate in iRoseTimeAppDelegate.o312327974#15033#71#0(6@0"312327974#0#0#0#0#0"0(13@60"_OBJC_METACLASS_$_TimeViewController in TimeViewController.o312327974#15104#67#0(6@0"312327974#0#0#0#0#0"0(13@40"_OBJC_METACLASS_$_RoseTime in RoseTime.o312327974#15171#47#0(6@0"312327974#0#0#0#0#0"0(13@40"_OBJC_METACLASS_$_RoseTime in RoseTime.o312327974#15218#47#0(6@0"312327974#0#0#0#0#0"0(13@54"_OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o312327974#15265#61#0(6@0"312327974#0#0#0#0#0"0(13@54"_OBJC_METACLASS_$_RTActualTimeSource in RTTimeSource.o312327974#15326#61#0(6@0"312327974#0#0#0#0#0"0(13@53"_OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o312327974#15387#60#0(6@0"312327974#0#0#0#0#0"0(13@53"_OBJC_METACLASS_$_RTFixedTimeSource in RTTimeSource.o312327974#15447#60#0(6@0"312327974#0#0#0#0#0"0(4@40""_OBJC_CLASS_$_NSDate", referenced from:312327974#15507#43#0(6@0"312327974#0#0#0#0#0"0(13@48"Objc-class-ref-to-NSDate in TimeViewController.o312327974#15550#55#0(6@0"312327974#0#0#0#0#0"0(13@42"Objc-class-ref-to-NSDate in RTTimeSource.o312327974#15605#49#0(6@0"312327974#0#0#0#0#0"0(4@42""_OBJC_CLASS_$_NSNumber", referenced from:312327974#15654#45#0(6@0"312327974#0#0#0#0#0"0(13@40"Objc-class-ref-to-NSNumber in RoseTime.o312327974#15699#47#0(6@0"312327974#0#0#0#0#0"0(4@50""_OBJC_CLASS_$_NSDateComponents", referenced from:312327974#15746#53#0(6@0"312327974#0#0#0#0#0"0(13@48"Objc-class-ref-to-NSDateComponents in RoseTime.o312327974#15799#55#0(6@0"312327974#0#0#0#0#0"0(4@50""_OBJC_CLASS_$_UIViewController", referenced from:312327974#15854#53#0(6@0"312327974#0#0#0#0#0"0(13@56"_OBJC_CLASS_$_TimeViewController in TimeViewController.o312327974#15907#63#0(6@0"312327974#0#0#0#0#0"0(4@42""_OBJC_CLASS_$_NSLocale", referenced from:312327974#15970#45#0(6@0"312327974#0#0#0#0#0"0(13@40"Objc-class-ref-to-NSLocale in RoseTime.o312327974#16015#47#0(6@0"312327974#0#0#0#0#0"0(13@19"Symbol(s) not found312327974#16062#24#0(6@0"312327974#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status312327974#16086#36#0(6@0"312327974#0#0#0#0#0"0(0#0#0"8606522560#902"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" -filelist "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTime.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime"1#
+
+CProcessInfoPlistFile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Info.plist" iRoseTime-Info.plist
+s312327973.246680
+e312327973.252504
+r1
+xProcessInfoPlistFile
+x/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Info.plist
+xiRoseTime-Info.plist
+lSLF07#2@28"Process iRoseTime-Info.plist312327973#312327973#0(0"0(0#0#68"/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime-Info.plist8620453632#518"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iRoseTime-Info.plist -genpkginfo "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Info.plist"0#
+
+CProcessPCH /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-bpqdlyjtywxurdbtvmkjrtvteyrw/iRoseTime_Prefix.pch.gch iRoseTime_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312312480.925827
+e312312481.748781
+r1
+xProcessPCH
+x/var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-bpqdlyjtywxurdbtvmkjrtvteyrw/iRoseTime_Prefix.pch.gch
+xiRoseTime_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile iRoseTime_Prefix.pch312312480#312312481#0(0"0(0#0#68"/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime_Prefix.pch8644258112#1954"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -c "/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime_Prefix.pch" -o /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-bpqdlyjtywxurdbtvmkjrtvteyrw/iRoseTime_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch.gch iRoseTime_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327973.778510
+e312327974.640367
+r1
+xProcessPCH
+x/var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch.gch
+xiRoseTime_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile iRoseTime_Prefix.pch312327973#312327974#0(0"0(0#0#68"/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime_Prefix.pch8620729216#1954"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -c "/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime_Prefix.pch" -o /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch.gch0#
+
+CTouch "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"
+s312315527.983065
+e312315527.985708
+r1
+xTouch
+x/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app
+lSLF07#2@95"Touch /Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app312315527#312315527#0(0"0(0#0#0"8631715040#302"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+

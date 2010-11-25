@@ -1,0 +1,562 @@
+TiRoseTime
+v7
+r0
+t312328016.328386
+cCheck dependencies
+cProcessInfoPlistFile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Info.plist" iRoseTime-Info.plist
+cCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib"
+cCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib"
+cCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib"
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/Millenium_Flame.jpg Millenium_Flame.jpg
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/periodRuler_iPhone.png periodRuler_iPhone.png
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/reticule_iPhone.png reticule_iPhone.png
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/timeRuler_iPhone.png timeRuler_iPhone.png
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/RoseNewRed.png RoseNewRed.png
+cCpResource build/Debug-iphonesimulator/iRoseTime.app/RoseKnockout.png RoseKnockout.png
+cProcessPCH /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch.gch iRoseTime_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/main.o "/Users/cclifton/Development/iOS Class/iRoseTime/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTimeAppDelegate.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/TimeViewController.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTime.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RTTimeSource.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime" normal i386
+cGenerateDSYMFile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app.dSYM" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime"
+cTouch "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/FirstViewController.h
+c000000004CED4996000000000000012C
+t1290619286
+s300
+i<UIKit/UIKit.h>
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/FirstViewController.m
+c000000004CED499600000000000005F3
+t1290619286
+s1523
+i"FirstViewController.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.h
+c000000004CB79CD50000000000000382
+t1287101653
+s898
+i<Foundation/Foundation.h>
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m
+c000000004CB714190000000000000744
+t1287066649
+s1860
+i"RTTimeSource.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.h
+c000000004CB79C5500000000000003C7
+t1287101525
+s967
+i<Foundation/Foundation.h>
+i"RTTimeSource.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m
+c000000004CBBE29900000000000015F5
+t1287381657
+s5621
+i"RoseTime.h"
+i"RTTimeSource.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTimeTests.h
+c000000004CB6325000000000000003D8
+t1287008848
+s984
+i<SenTestingKit/SenTestingKit.h>
+i<UIKit/UIKit.h>
+i"RTTimeSource.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTimeTests.m
+c000000004CB7B7AC000000000000257E
+t1287108524
+s9598
+i"RoseTimeTests.h"
+i"RoseTime.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.h
+c000000004CED4E97000000000000032F
+t1290620567
+s815
+i<UIKit/UIKit.h>
+i"RoseTime.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m
+c000000004CED56330000000000001548
+t1290622515
+s5448
+i"TimeViewController.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.h
+c000000004CED4996000000000000021F
+t1290619286
+s543
+i<UIKit/UIKit.h>
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m
+c000000004CED49960000000000000C7D
+t1290619286
+s3197
+i"iRoseTimeAppDelegate.h"
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/FirstView.xib
+c000000004CED499600000000000049D3
+t1290619286
+s18899
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib
+c000000004CED4AD700000000000063AB
+t1290619607
+s25515
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/Millenium_Flame.jpg
+c000000004CEC3A30000000000000DF93
+t1290549808
+s57235
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/RoseKnockout.png
+c000000004C509B6B0000000000003587
+t1280351083
+s13703
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/RoseNewRed.png
+c000000004C522A2A00000000000048A0
+t1280453162
+s18592
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/SecondView.xib
+c000000004CED499600000000000049D1
+t1290619286
+s18897
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib
+c000000004CED499600000000000049D1
+t1290619286
+s18897
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib
+c000000004CED880F000000000000842A
+t1290635279
+s33834
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app
+t1290635206
+s476
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app.dSYM
+t1290635206
+s102
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/FirstView.nib
+t2
+s0
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Info.plist
+t1290635173
+s599
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/MainWindow.nib
+t1290635173
+s1697
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Millenium_Flame.jpg
+t1290635173
+s57235
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/PkgInfo
+t1290635173
+s8
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/RoseKnockout.png
+t1290635173
+s13703
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/RoseNewRed.png
+t1290635173
+s18592
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/SecondView.nib
+t2
+s0
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/SettingsView.nib
+t1290635173
+s1742
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/TimeView.nib
+t1290635173
+s2537
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime
+t1290635206
+s37896
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/periodRuler_iPhone.png
+t1290635173
+s29817
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/reticule_iPhone.png
+t1290635173
+s10138
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/timeRuler_iPhone.png
+t1290635173
+s30623
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/FirstViewController.o
+t2
+s0
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RTTimeSource.o
+t1290635174
+s16864
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTime.o
+t1290635174
+s24920
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTimeTests.o
+t2
+s0
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/TimeViewController.o
+t1290635174
+s57948
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTime.LinkFileList
+c000000004CED87A500000000000002CD
+t1290635173
+s717
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTimeAppDelegate.o
+t1290635174
+s54432
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/main.o
+t1290635174
+s6320
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime_Prefix.pch
+c000000004CED499600000000000000BB
+t1290619286
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/main.m
+c000000004CED499600000000000001A7
+t1290619286
+s423
+i<UIKit/UIKit.h>
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/periodRuler_iPhone.png
+c000000004CEC39250000000000007479
+t1290549541
+s29817
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/reticule_iPhone.png
+c000000004CEC476D000000000000279A
+t1290553197
+s10138
+
+N/Users/cclifton/Development/iOS Class/iRoseTime/timeRuler_iPhone.png
+c000000004CEC387F000000000000779F
+t1290549375
+s30623
+
+N/var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-bpqdlyjtywxurdbtvmkjrtvteyrw/iRoseTime_Prefix.pch.gch
+t1290619681
+s15211536
+
+N/var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch.gch
+t1290635174
+s15453392
+
+NiRoseTime-Info.plist
+c000000004CED4996000000000000038D
+t1290619286
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312328016#312328016#0(0"0(0#1#0"8621069312#0"0#
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/FirstViewController.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/FirstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RTTimeSource.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327974.710385
+e312327974.789281
+r1
+xCompileC
+xbuild/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RTTimeSource.o
+x/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m312327974#312327974#0(0"0(0#0#70"/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m8620892928#2099"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -include /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch -c "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RTTimeSource.m" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RTTimeSource.o"0#
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTime.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327974.645236
+e312327974.765215
+r1
+xCompileC
+xbuild/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTime.o
+x/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m312327974#312327974#0(0"0(0#0#66"/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m8621893536#2091"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -include /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch -c "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTime.m" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTime.o"0#
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/RoseTimeTests.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/RoseTimeTests.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/TimeViewController.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327974.643574
+e312327974.763616
+r1
+xCompileC
+xbuild/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/TimeViewController.o
+x/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m312327974#312327974#0(0"0(0#0#76"/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m8622564320#2111"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -include /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch -c "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/TimeViewController.m" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/TimeViewController.o"0#
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTimeAppDelegate.o "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327974.642256
+e312327974.757562
+r1
+xCompileC
+xbuild/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTimeAppDelegate.o
+x/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m312327974#312327974#0(0"0(0#0#78"/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m8625675648#2115"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -include /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch -c "/Users/cclifton/Development/iOS Class/iRoseTime/Classes/iRoseTimeAppDelegate.m" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTimeAppDelegate.o"0#
+
+CCompileC build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/main.o "/Users/cclifton/Development/iOS Class/iRoseTime/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327974.640523
+e312327974.710236
+r1
+xCompileC
+xbuild/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/main.o
+x/Users/cclifton/Development/iOS Class/iRoseTime/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/cclifton/Development/iOS Class/iRoseTime/main.m312327974#312327974#0(0"0(0#0#54"/Users/cclifton/Development/iOS Class/iRoseTime/main.m8616782016#2075"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -include /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch -c "/Users/cclifton/Development/iOS Class/iRoseTime/main.m" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/FirstView.xib"
+r0
+
+CCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib"
+s312327973.252575
+e312327973.711403
+r1
+xCompileXIB
+x/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312327973#312327973#0(0"0(0#0#62"/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib8610574560#605"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/MainWindow.nib" "/Users/cclifton/Development/iOS Class/iRoseTime/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/SecondView.xib"
+r0
+
+CCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib"
+s312327973.253388
+e312327973.744977
+r1
+xCompileXIB
+x/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib
+lSLF07#2@27"CompileXIB SettingsView.xib312327973#312327973#0(0"0(0#0#64"/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib8610134592#609"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/SettingsView.nib" "/Users/cclifton/Development/iOS Class/iRoseTime/SettingsView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib"
+s312327973.254160
+e312327973.778371
+r1
+xCompileXIB
+x/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib
+lSLF07#2@23"CompileXIB TimeView.xib312327973#312327973#0(0"0(0#0#60"/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib8609655232#601"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/TimeView.nib" "/Users/cclifton/Development/iOS Class/iRoseTime/TimeView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/Millenium_Flame.jpg Millenium_Flame.jpg
+s312327973.254968
+e312327973.268062
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/Millenium_Flame.jpg
+xMillenium_Flame.jpg
+lSLF07#2@24"Copy Millenium_Flame.jpg312327973#312327973#0(0"0(0#0#67"/Users/cclifton/Development/iOS Class/iRoseTime/Millenium_Flame.jpg8608991744#512"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/Millenium_Flame.jpg" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/RoseKnockout.png RoseKnockout.png
+s312327973.265384
+e312327973.287087
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/RoseKnockout.png
+xRoseKnockout.png
+lSLF07#2@21"Copy RoseKnockout.png312327973#312327973#0(0"0(0#0#64"/Users/cclifton/Development/iOS Class/iRoseTime/RoseKnockout.png8605420352#509"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/RoseKnockout.png" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/RoseNewRed.png RoseNewRed.png
+s312327973.263041
+e312327973.284837
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/RoseNewRed.png
+xRoseNewRed.png
+lSLF07#2@19"Copy RoseNewRed.png312327973#312327973#0(0"0(0#0#62"/Users/cclifton/Development/iOS Class/iRoseTime/RoseNewRed.png8605737024#507"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/RoseNewRed.png" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/periodRuler_iPhone.png periodRuler_iPhone.png
+s312327973.256068
+e312327973.269633
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/periodRuler_iPhone.png
+xperiodRuler_iPhone.png
+lSLF07#2@27"Copy periodRuler_iPhone.png312327973#312327973#0(0"0(0#0#70"/Users/cclifton/Development/iOS Class/iRoseTime/periodRuler_iPhone.png8606662240#515"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/periodRuler_iPhone.png" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/reticule_iPhone.png reticule_iPhone.png
+s312327973.258242
+e312327973.272725
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/reticule_iPhone.png
+xreticule_iPhone.png
+lSLF07#2@24"Copy reticule_iPhone.png312327973#312327973#0(0"0(0#0#67"/Users/cclifton/Development/iOS Class/iRoseTime/reticule_iPhone.png8606411040#512"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/reticule_iPhone.png" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CCpResource build/Debug-iphonesimulator/iRoseTime.app/timeRuler_iPhone.png timeRuler_iPhone.png
+s312327973.260610
+e312327973.275437
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/iRoseTime.app/timeRuler_iPhone.png
+xtimeRuler_iPhone.png
+lSLF07#2@25"Copy timeRuler_iPhone.png312327973#312327973#0(0"0(0#0#68"/Users/cclifton/Development/iOS Class/iRoseTime/timeRuler_iPhone.png8606222560#513"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/cclifton/Development/iOS Class/iRoseTime/timeRuler_iPhone.png" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
+CGenerateDSYMFile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app.dSYM" "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime"
+s312328006.429762
+e312328006.531514
+r1
+xGenerateDSYMFile
+x/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app.dSYM
+x/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/iRoseTime.app.dSYM build/Debug-iphonesimulator/iRoseTime.app/iRoseTime312328006#312328006#0(0"0(0#0#99"/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime8621389248#422"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime" -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app.dSYM"0#
+
+CLd "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime" normal i386
+s312328006.403531
+e312328006.429663
+r1
+xLd
+x/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime
+xnormal
+xi386
+lSLF07#2@104"Link /Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime312328006#312328006#0(0"0(0#0#0"8621948896#965"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" -filelist "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/Objects-normal/i386/iRoseTime.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework UIKit -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/iRoseTime"0#
+
+CProcessInfoPlistFile "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Info.plist" iRoseTime-Info.plist
+s312327973.246680
+e312327973.252504
+r1
+xProcessInfoPlistFile
+x/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Info.plist
+xiRoseTime-Info.plist
+lSLF07#2@28"Process iRoseTime-Info.plist312327973#312327973#0(0"0(0#0#68"/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime-Info.plist8620453632#518"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iRoseTime-Info.plist -genpkginfo "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app/Info.plist"0#
+
+CProcessPCH /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-bpqdlyjtywxurdbtvmkjrtvteyrw/iRoseTime_Prefix.pch.gch iRoseTime_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312312480.925827
+e312312481.748781
+r1
+xProcessPCH
+x/var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-bpqdlyjtywxurdbtvmkjrtvteyrw/iRoseTime_Prefix.pch.gch
+xiRoseTime_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile iRoseTime_Prefix.pch312312480#312312481#0(0"0(0#0#68"/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime_Prefix.pch8644258112#1954"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -c "/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime_Prefix.pch" -o /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-bpqdlyjtywxurdbtvmkjrtvteyrw/iRoseTime_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch.gch iRoseTime_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312327973.778510
+e312327974.640367
+r1
+xProcessPCH
+x/var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch.gch
+xiRoseTime_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile iRoseTime_Prefix.pch312327973#312327974#0(0"0(0#0#68"/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime_Prefix.pch8620729216#1954"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-generated-files.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-own-target-headers.hmap" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-all-target-headers.hmap" -iquote "/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/iRoseTime-project-headers.hmap" "-F/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/include" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources/i386" "-I/Users/cclifton/Development/iOS Class/iRoseTime/build/iRoseTime.build/Debug-iphonesimulator/iRoseTime.build/DerivedSources" -c "/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime_Prefix.pch" -o /var/folders/Tb/TbIVLTFUE0i5ftXFDox9I++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iRoseTime_Prefix-dlibozcegdfvaxcvvksoegwmcfjz/iRoseTime_Prefix.pch.gch0#
+
+CTouch "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"
+s312328006.531637
+e312328006.553718
+r1
+xTouch
+x/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app
+lSLF07#2@95"Touch /Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app312328006#312328006#0(0"0(0#0#0"8609272736#302"    cd "/Users/cclifton/Development/iOS Class/iRoseTime"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/cclifton/Development/iOS Class/iRoseTime/build/Debug-iphonesimulator/iRoseTime.app"0#
+
