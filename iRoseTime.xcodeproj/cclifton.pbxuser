@@ -1,10 +1,17 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* iRoseTimeAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 580}}";
+			sepNavSelRange = "{283, 21}";
+			sepNavVisRange = "{0, 543}";
+		};
+	};
 	1D3623250D0F684500981E51 /* iRoseTimeAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {843, 1888}}";
+			sepNavIntBoundsRect = "{{0, 0}, {843, 1712}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1009}";
+			sepNavVisRange = "{0, 917}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* iRoseTime */ = {
@@ -15,16 +22,16 @@
 	};
 	28216C950DB411BC00E5133A /* TimeViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {843, 600}}";
-			sepNavSelRange = "{809, 0}";
-			sepNavVisRange = "{0, 815}";
+			sepNavIntBoundsRect = "{{0, 0}, {843, 580}}";
+			sepNavSelRange = "{314, 51}";
+			sepNavVisRange = "{0, 670}";
 		};
 	};
 	28216C960DB411BC00E5133A /* TimeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {843, 2800}}";
-			sepNavSelRange = "{4089, 0}";
-			sepNavVisRange = "{3943, 1244}";
+			sepNavIntBoundsRect = "{{0, 0}, {843, 2496}}";
+			sepNavSelRange = "{3537, 0}";
+			sepNavVisRange = "{0, 984}";
 			sepNavWindowFrame = "{{19, 221}, {933, 802}}";
 		};
 	};
@@ -39,8 +46,8 @@
 		activeArchitecturePreference = armv7;
 		activeBuildConfigurationName = Debug;
 		activeExecutable = F7ED85D2129D811600CBD5F5 /* iRoseTime */;
-		activeSDKPreference = iphoneos4.2;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* iRoseTime */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = F7ED8612129D86F500CBD5F5 /* UnitTests */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* iRoseTime */,
 		);
@@ -69,6 +76,18 @@
 					PBXFileDataSource_Errors_ColumnID,
 					PBXFileDataSource_Warnings_ColumnID,
 					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					679,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
 				);
 			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
@@ -109,17 +128,21 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312327941;
-			PBXWorkspaceStateSaveDate = 312327941;
+			PBXPerProjectTemplateStateSaveDate = 312420676;
+			PBXWorkspaceStateSaveDate = 312420676;
 		};
 		perUserProjectItems = {
-			F7411788129DBF0000A61436 /* PBXTextBookmark */ = F7411788129DBF0000A61436 /* PBXTextBookmark */;
-			F74117B8129DDC0800A61436 /* PBXTextBookmark */ = F74117B8129DDC0800A61436 /* PBXTextBookmark */;
-			F7ED862C129D87E100CBD5F5 /* PBXTextBookmark */ = F7ED862C129D87E100CBD5F5 /* PBXTextBookmark */;
+			F71A733A129F2CB200611CA5 /* PBXTextBookmark */ = F71A733A129F2CB200611CA5 /* PBXTextBookmark */;
+			F71A733B129F2CB200611CA5 /* PBXTextBookmark */ = F71A733B129F2CB200611CA5 /* PBXTextBookmark */;
+			F71A733D129F2CB200611CA5 /* PBXTextBookmark */ = F71A733D129F2CB200611CA5 /* PBXTextBookmark */;
+			F71A733E129F2CB200611CA5 /* PBXTextBookmark */ = F71A733E129F2CB200611CA5 /* PBXTextBookmark */;
+			F71A733F129F2CB200611CA5 /* PBXTextBookmark */ = F71A733F129F2CB200611CA5 /* PBXTextBookmark */;
+			F71A7340129F2CB200611CA5 /* PBXTextBookmark */ = F71A7340129F2CB200611CA5 /* PBXTextBookmark */;
+			F71A7349129F2FBA00611CA5 /* PBXTextBookmark */ = F71A7349129F2FBA00611CA5 /* PBXTextBookmark */;
+			F71A734E129F303A00611CA5 /* PBXTextBookmark */ = F71A734E129F303A00611CA5 /* PBXTextBookmark */;
 			F7ED862D129D87E100CBD5F5 /* PBXTextBookmark */ = F7ED862D129D87E100CBD5F5 /* PBXTextBookmark */;
 			F7ED862E129D87E100CBD5F5 /* PBXTextBookmark */ = F7ED862E129D87E100CBD5F5 /* PBXTextBookmark */;
 			F7ED862F129D87E100CBD5F5 /* PlistBookmark */ = F7ED862F129D87E100CBD5F5 /* PlistBookmark */;
-			F7ED8630129D87E100CBD5F5 /* PBXTextBookmark */ = F7ED8630129D87E100CBD5F5 /* PBXTextBookmark */;
 			F7ED8632129D87E100CBD5F5 /* PBXTextBookmark */ = F7ED8632129D87E100CBD5F5 /* PBXTextBookmark */;
 			F7ED8633129D87E100CBD5F5 /* PBXTextBookmark */ = F7ED8633129D87E100CBD5F5 /* PBXTextBookmark */;
 			F7ED8646129D8D5D00CBD5F5 /* PBXTextBookmark */ = F7ED8646129D8D5D00CBD5F5 /* PBXTextBookmark */;
@@ -137,25 +160,106 @@
 			sepNavVisRange = "{0, 423}";
 		};
 	};
-	F7411788129DBF0000A61436 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28216C960DB411BC00E5133A /* TimeViewController.m */;
-		name = "TimeViewController.m: 124";
-		rLen = 0;
-		rLoc = 4089;
-		rType = 0;
-		vrLen = 1266;
-		vrLoc = 3943;
+	F71A7322129F2B3000611CA5 /* SettingsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 580}}";
+			sepNavSelRange = "{508, 0}";
+			sepNavVisRange = "{0, 522}";
+		};
 	};
-	F74117B8129DDC0800A61436 /* PBXTextBookmark */ = {
+	F71A7323129F2B3000611CA5 /* SettingsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 1472}}";
+			sepNavSelRange = "{415, 0}";
+			sepNavVisRange = "{256, 1117}";
+			sepNavWindowFrame = "{{19, 221}, {933, 802}}";
+		};
+	};
+	F71A733A129F2CB200611CA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iRoseTimeAppDelegate.m */;
+		name = "iRoseTimeAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 0;
+	};
+	F71A733B129F2CB200611CA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F71A733C129F2CB200611CA5 /* UIApplication.h */;
+		name = "UIApplication.h: 231";
+		rLen = 42;
+		rLoc = 11105;
+		rType = 0;
+		vrLen = 1434;
+		vrLoc = 10083;
+	};
+	F71A733C129F2CB200611CA5 /* UIApplication.h */ = {
+		isa = PBXFileReference;
+		name = UIApplication.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h;
+		sourceTree = "<absolute>";
+	};
+	F71A733D129F2CB200611CA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iRoseTimeAppDelegate.h */;
+		name = "iRoseTimeAppDelegate.h: 11";
+		rLen = 21;
+		rLoc = 283;
+		rType = 0;
+		vrLen = 543;
+		vrLoc = 0;
+	};
+	F71A733E129F2CB200611CA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C950DB411BC00E5133A /* TimeViewController.h */;
+		name = "TimeViewController.h: 16";
+		rLen = 51;
+		rLoc = 314;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 0;
+	};
+	F71A733F129F2CB200611CA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F71A7323129F2B3000611CA5 /* SettingsViewController.m */;
+		name = "SettingsViewController.m: 58";
+		rLen = 0;
+		rLoc = 1819;
+		rType = 0;
+		vrLen = 1035;
+		vrLoc = 1203;
+	};
+	F71A7340129F2CB200611CA5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28216C960DB411BC00E5133A /* TimeViewController.m */;
-		name = "TimeViewController.m: 124";
+		name = "TimeViewController.m: 111";
 		rLen = 0;
-		rLoc = 4089;
+		rLoc = 3537;
 		rType = 0;
-		vrLen = 1244;
-		vrLoc = 3943;
+		vrLen = 984;
+		vrLoc = 0;
+	};
+	F71A7349129F2FBA00611CA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F71A7322129F2B3000611CA5 /* SettingsViewController.h */;
+		name = "SettingsViewController.h: 19";
+		rLen = 0;
+		rLoc = 508;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 0;
+	};
+	F71A734E129F303A00611CA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F71A7323129F2B3000611CA5 /* SettingsViewController.m */;
+		name = "SettingsViewController.m: 19";
+		rLen = 0;
+		rLoc = 415;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 256;
 	};
 	F7ED85D2129D811600CBD5F5 /* iRoseTime */ = {
 		isa = PBXExecutable;
@@ -225,16 +329,6 @@
 	F7ED8612129D86F500CBD5F5 /* UnitTests */ = {
 		activeExec = 0;
 	};
-	F7ED862C129D87E100CBD5F5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* iRoseTimeAppDelegate.m */;
-		name = "iRoseTimeAppDelegate.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1009;
-		vrLoc = 0;
-	};
 	F7ED862D129D87E100CBD5F5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
@@ -265,16 +359,6 @@
 		name = "/Users/cclifton/Development/iOS Class/iRoseTime/iRoseTime-Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775808;
-	};
-	F7ED8630129D87E100CBD5F5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28216C950DB411BC00E5133A /* TimeViewController.h */;
-		name = "TimeViewController.h: 27";
-		rLen = 0;
-		rLoc = 809;
-		rType = 0;
-		vrLen = 815;
-		vrLoc = 0;
 	};
 	F7ED8632129D87E100CBD5F5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;

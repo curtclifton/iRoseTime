@@ -84,20 +84,6 @@
 	[UIView commitAnimations];
 }
 
-- (IBAction) synchronizeToBellNow {
-	if (![self.roseTime synchronizeToBellAt:[NSDate date]]) {
-		// CONSIDER: add option to sync to a specified bell, in which case we 
-		// make a new RoseTime instance and force a new bell offset
-		UIAlertView *noSyncAlert = [[UIAlertView alloc] initWithTitle:@"Unable to synchronize with bells now" 
-															  message:@"Sorry, but the device time isn’t close enough to an expected bell time to automatically synchronize." 
-															 delegate:nil 
-													cancelButtonTitle:@"OK, I’ll try later" 
-													otherButtonTitles:nil];
-		[noSyncAlert show];
-		[noSyncAlert release];
-	}
-}
-
 #pragma mark -
 #pragma mark Overrides
 
@@ -121,6 +107,8 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	// TODO: the RoseTime instance should be allocated by the application and shared here
 	RTActualTimeSource *actualTime = [[RTActualTimeSource alloc] init];
 //	RTFixedTimeSource *actualTime = [[RTFixedTimeSource alloc] initWithTime:[NSDate dateWithTimeIntervalSinceReferenceDate:-18000]];
 	self.roseTime = [[RoseTime alloc] initWithTimeSource:actualTime bellOffset:0];

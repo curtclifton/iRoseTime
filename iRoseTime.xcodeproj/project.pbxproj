@@ -13,6 +13,7 @@
 		282CCBFE0DB6C98000C4EA27 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SettingsView.xib */; };
 		2840D7CE1179279E00D7F93C /* TimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* TimeView.xib */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		F71A7324129F2B3000611CA5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71A7323129F2B3000611CA5 /* SettingsViewController.m */; };
 		F74117A1129DBF4300A61436 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74117A0129DBF4300A61436 /* CoreGraphics.framework */; };
 		F74117A3129DBF4300A61436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74117A2129DBF4300A61436 /* Foundation.framework */; };
 		F74117A5129DBF4300A61436 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74117A4129DBF4300A61436 /* UIKit.framework */; };
@@ -51,6 +52,8 @@
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iRoseTime-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iRoseTime-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F71A7322129F2B3000611CA5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		F71A7323129F2B3000611CA5 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		F74117A0129DBF4300A61436 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F74117A2129DBF4300A61436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F74117A4129DBF4300A61436 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -104,6 +107,8 @@
 				F7ED85FF129D843300CBD5F5 /* RTTimeSource.m */,
 				F7ED8600129D843300CBD5F5 /* RoseTimeTests.h */,
 				F7ED8601129D843300CBD5F5 /* RoseTimeTests.m */,
+				F71A7322129F2B3000611CA5 /* SettingsViewController.h */,
+				F71A7323129F2B3000611CA5 /* SettingsViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				28216C970DB411BC00E5133A /* TimeViewController.m in Sources */,
 				F7ED8602129D843300CBD5F5 /* RoseTime.m in Sources */,
 				F7ED8603129D843300CBD5F5 /* RTTimeSource.m in Sources */,
+				F71A7324129F2B3000611CA5 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

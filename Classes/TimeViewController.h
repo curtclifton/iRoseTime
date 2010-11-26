@@ -20,9 +20,6 @@
 @property (nonatomic, retain) IBOutlet UIView *timeBarView;
 @property (nonatomic, retain) IBOutlet UIView *reticuleView;
 
-// TODO: synchronization needs to live in a permanently loaded class, the action belongs in the settings tab
-- (IBAction) synchronizeToBellNow;
-
 - (void) updateTimeDisplay:(NSTimer*)theTimer;
 
 @end
