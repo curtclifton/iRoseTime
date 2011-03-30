@@ -14,7 +14,7 @@
 #define TIME_BAR_ENDS_OPAQUE ((12 + 5.5)*60*60)
 #define VISIBLE_TIME_BAR_END ((12 + 6.0)*60*60)
 
-#define TIME_BAR_MIN_Y 67.5
+#define TIME_BAR_MIN_Y 66.5
 #define TIME_BAR_VERTICAL_TRAVEL 303.0
 
 @implementation TimeViewController
