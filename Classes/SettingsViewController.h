@@ -13,9 +13,6 @@
 
 }
 
-@property (nonatomic, retain) RoseTime *roseTime;
-
-// TODO: synchronization needs to live in a permanently loaded class, the action belongs in the settings tab
 - (IBAction) synchronizeToBellNow;
 
 @end

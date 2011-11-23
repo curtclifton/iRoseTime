@@ -13,8 +13,6 @@
 @interface TimeViewController : UIViewController {
 }
 
-@property (nonatomic, retain) RoseTime *roseTime;
-
 @property (nonatomic, retain) IBOutlet UILabel *currentTimeLabel;
 @property (nonatomic, retain) IBOutlet UILabel *countDownLabel;
 @property (nonatomic, retain) IBOutlet UIView *timeBarView;

@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class RoseTime;
+
 @interface iRoseTimeAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
     UIWindow *window;
     UITabBarController *tabBarController;
 }
+
+@property (nonatomic, readonly) RoseTime *roseTime;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;

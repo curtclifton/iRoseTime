@@ -7,9 +7,12 @@
 //
 
 #import "iRoseTimeAppDelegate.h"
-
+#import "RTTimeSource.h"
+#import "RoseTime.h"
 
 @implementation iRoseTimeAppDelegate
+
+@synthesize roseTime;
 
 @synthesize window;
 @synthesize tabBarController;
@@ -20,12 +23,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after application launch.
-
-    // Add the tab bar controller's view to the window and display.
+    // TODO: switch between real and simulated time here
+//    RTActualTimeSource *actualTime = [[RTActualTimeSource alloc] init];
+    RTFixedTimeSource *actualTime = [[RTFixedTimeSource alloc] initWithTime:[NSDate dateWithTimeIntervalSinceReferenceDate:48000]];
+    roseTime = [[RoseTime alloc] initWithTimeSource:actualTime bellOffset:0];
+    [actualTime release];
+    
     [window addSubview:tabBarController.view];
     [window makeKeyAndVisible];
-
+    
     return YES;
 }
 
@@ -72,16 +78,16 @@
 #pragma mark UITabBarControllerDelegate methods
 
 /*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
-}
-*/
+ // Optional UITabBarControllerDelegate method.
+ - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
+ }
+ */
 
 /*
-// Optional UITabBarControllerDelegate method.
-- (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed {
-}
-*/
+ // Optional UITabBarControllerDelegate method.
+ - (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed {
+ }
+ */
 
 
 #pragma mark -
@@ -97,6 +103,7 @@
 - (void)dealloc {
     [tabBarController release];
     [window release];
+    [roseTime release];
     [super dealloc];
 }
 
