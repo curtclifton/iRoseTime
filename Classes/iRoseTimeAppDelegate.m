@@ -24,8 +24,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // TODO: switch between real and simulated time here
-//    RTActualTimeSource *actualTime = [[RTActualTimeSource alloc] init];
-    RTFixedTimeSource *actualTime = [[RTFixedTimeSource alloc] initWithTime:[NSDate dateWithTimeIntervalSinceReferenceDate:48000]];
+    RTActualTimeSource *actualTime = [[RTActualTimeSource alloc] init];
+//    RTFixedTimeSource *actualTime = [[RTFixedTimeSource alloc] initWithTime:[NSDate dateWithTimeIntervalSinceReferenceDate:53990]];
     roseTime = [[RoseTime alloc] initWithTimeSource:actualTime bellOffset:0];
     [actualTime release];
     
