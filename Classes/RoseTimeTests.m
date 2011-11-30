@@ -181,7 +181,7 @@
 	NSDate *ring = [NSDate dateWithTimeIntervalSinceReferenceDate:intervalSinceReference];
 	RTFixedTimeSource *ts = [self allocTimeSource:ring];
 	RoseTime *rt = [[RoseTime alloc] initWithTimeSource:ts];
-	STAssertTrue([rt synchronizeToBellAt:ring], @"Should sync to a nearby time");
+	STAssertTrue([rt synchronizeToBell], @"Should sync to a nearby time");
 	// Check that seconds past midnight is correct
 	// NSLog(@"seconds past midnight: %d", [rt secondsPastMidnightAtRose]);
 	STAssertEquals([rt secondsPastMidnightAtRose], expectedSeconds,
@@ -200,7 +200,7 @@
 	NSDate *date = [NSDate dateWithTimeIntervalSinceReferenceDate:intervalSinceReference];
 	RTFixedTimeSource *ts = [[RTFixedTimeSource alloc] initWithTime:date];
 	RoseTime *rt = [[RoseTime alloc] initWithTimeSource:ts];
-	STAssertFalse([rt synchronizeToBellAt:date], @"Should not sync at %@", date);
+	STAssertFalse([rt synchronizeToBell], @"Should not sync at %@", date);
 }
 
 - (void) testSynchronizeToBellAt {

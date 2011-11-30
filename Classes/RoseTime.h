@@ -27,6 +27,6 @@
 - (NSInteger) secondsUntilNextBell;
 - (NSString *) currentTimeAsString;
 
-- (BOOL) synchronizeToBellAt: (NSDate *) ringTime;
+- (BOOL) synchronizeToBell;
 
 @end
