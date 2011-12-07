@@ -3,7 +3,8 @@
 //  RoseTime
 //
 //  Created by Curtis Clifton on 9/26/10.
-//  Copyright 2010 Computer Science and Software Engineering, Rose-Hulman Institute of Technology. All rights reserved.
+//  Copyright 2010-11 by Curtis Clifton
+//  Released under a BSD license
 //
 
 #import <Foundation/Foundation.h>
