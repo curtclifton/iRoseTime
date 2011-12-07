@@ -19,22 +19,38 @@
 // of an expected bell time.
 #define BELL_SYNC_PRECISION 0.4
 
+static NSString * const BELL_OFFSET_KEY = @"BellOffsetKey";
+
 @interface RoseTime (helpers)
 - (void) initializeFormatter;
 - (void) initializeBellTimes;
 @end
 
 @implementation RoseTime
+{
+    NSTimeInterval _bellOffset;
+}
 
-@synthesize bellOffset;
+@synthesize bellOffset = _bellOffset;
+
+- (void)setBellOffset:(NSTimeInterval)bellOffset;
+{
+    _bellOffset = bellOffset;
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:[NSNumber numberWithDouble:bellOffset] forKey:BELL_OFFSET_KEY];
+    [defaults synchronize];
+}
+
 @synthesize timeSource;
 @synthesize formatter;
 @synthesize bellTimes;
 
-- (id) initWithTimeSource: (id<RTTimeSource>) aTimeSource bellOffset: (NSTimeInterval) offset {
+- (id)initWithTimeSource:(id<RTTimeSource>)aTimeSource bellOffset:(NSTimeInterval)offset;
+{
     if (self = [super init]) {
         self.timeSource = aTimeSource;
-        self.bellOffset = offset;
+        _bellOffset = offset;
         
         [self initializeFormatter];
         [self initializeBellTimes];
@@ -42,8 +58,12 @@
     return self;
 }
 
-- (id) initWithTimeSource:(id<RTTimeSource>) aTimeSource {
-    return [self initWithTimeSource:aTimeSource bellOffset:0.0f];
+- (id)initWithTimeSource:(id<RTTimeSource>)aTimeSource;
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSNumber *bellOffsetValue = [defaults objectForKey:BELL_OFFSET_KEY];
+
+    return [self initWithTimeSource:aTimeSource bellOffset:[bellOffsetValue doubleValue]];
 }
 
 - (NSInteger) secondsPastMidnightAtRose {
@@ -94,7 +114,7 @@
     return [formatter stringFromDate:theDate];
 }
 
-- (BOOL) synchronizeToBell;
+- (BOOL)synchronizeToBell;
 {
     NSDate *ringTime = [self.timeSource currentTime];
     // Loop over bell times calculating new bell offset values

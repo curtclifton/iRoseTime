@@ -13,7 +13,7 @@
 @interface RoseTime : NSObject {
 }
 
-@property (assign) NSTimeInterval bellOffset;
+@property (nonatomic, assign) NSTimeInterval bellOffset;
 @property (nonatomic, retain) id<RTTimeSource> timeSource;
 @property (nonatomic, retain) NSDateFormatter *formatter;
 
@@ -21,8 +21,8 @@
 @property (nonatomic, retain) NSArray *bellTimes;
 
 // Bell offset is number of seconds that bell is later than device system time
-- (id) initWithTimeSource: (id<RTTimeSource>) aTimeSource bellOffset: (NSTimeInterval) offset;
-- (id) initWithTimeSource: (id<RTTimeSource>) aTimeSource;
+- (id)initWithTimeSource:(id<RTTimeSource>)aTimeSource bellOffset:(NSTimeInterval)offset;
+- (id)initWithTimeSource:(id<RTTimeSource>)aTimeSource;
 
 - (NSInteger) secondsPastMidnightAtRose;
 - (NSInteger) secondsUntilNextBell;
