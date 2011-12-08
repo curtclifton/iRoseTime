@@ -23,8 +23,8 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-//    RTActualTimeSource *theTime = [[RTActualTimeSource alloc] init];
-    RTFixedTimeSource *theTime = [[RTFixedTimeSource alloc] initWithTime:[NSDate dateWithTimeIntervalSinceReferenceDate:-3015]];
+    RTActualTimeSource *theTime = [[RTActualTimeSource alloc] init];
+//    RTFixedTimeSource *theTime = [[RTFixedTimeSource alloc] initWithTime:[NSDate dateWithTimeIntervalSinceReferenceDate:-3015]];
     roseTime = [[RoseTime alloc] initWithTimeSource:theTime];
     [theTime release];
     
