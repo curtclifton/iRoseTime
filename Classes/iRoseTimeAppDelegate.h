@@ -11,7 +11,8 @@
 
 @class RoseTime;
 
-@interface iRoseTimeAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
+@interface iRoseTimeAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> 
+{
     UIWindow *window;
     UITabBarController *tabBarController;
 }

@@ -17,14 +17,14 @@
 
 
 @protocol RTTimeSource <NSObject>
-- (NSDate *) currentTime;
-- (NSTimeZone *) timeZone;
-- (NSCalendar *) calendar;
+- (NSDate *)currentTime;
+- (NSTimeZone *)timeZone;
+- (NSCalendar *)calendar;
 @end
 
 @interface RTFixedTimeSource : NSObject <RTTimeSource>
 @property (nonatomic, readonly) NSDate *time;
-- (id) initWithTime: (NSDate *) fixedTime;
+- (id)initWithTime:(NSDate *)fixedTime;
 @end
 
 @interface RTActualTimeSource : NSObject <RTTimeSource>

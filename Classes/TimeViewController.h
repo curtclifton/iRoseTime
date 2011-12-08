@@ -11,14 +11,13 @@
 #import "RoseTime.h"
 
 
-@interface TimeViewController : UIViewController {
-}
+@interface TimeViewController : UIViewController 
 
 @property (nonatomic, retain) IBOutlet UILabel *currentTimeLabel;
 @property (nonatomic, retain) IBOutlet UILabel *countDownLabel;
 @property (nonatomic, retain) IBOutlet UIView *timeBarView;
 @property (nonatomic, retain) IBOutlet UIView *reticuleView;
 
-- (void) updateTimeDisplay:(NSTimer*)theTimer;
+- (void)updateTimeDisplay:(NSTimer *)theTimer;
 
 @end

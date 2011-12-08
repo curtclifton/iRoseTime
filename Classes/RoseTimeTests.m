@@ -145,7 +145,6 @@
 {
 	RoseTime *time = [[RoseTime alloc] initWithTimeSource:eightAM bellOffset:offset];
 	NSInteger actual = [time secondsPastMidnightAtRose];
-	// NSLog(@" Actual: %d, Expected: %d", actual, expectedValue);
 	STAssertEquals(actual, expectedValue, 
 				   @"Testing seconds past midnight for 8am with %.2f second bell offset.",
 				   offset);
@@ -184,11 +183,9 @@
 	RoseTime *rt = [[RoseTime alloc] initWithTimeSource:ts];
 	STAssertTrue([rt synchronizeToBell], @"Should sync to a nearby time");
 	// Check that seconds past midnight is correct
-	// NSLog(@"seconds past midnight: %d", [rt secondsPastMidnightAtRose]);
 	STAssertEquals([rt secondsPastMidnightAtRose], expectedSeconds,
 				   @"After sync, time should be a bell time");
 	// Check that seconds to bell is 0
-	//	NSLog(@"seconds to next bell: %d", [rt secondsUntilNextBell]);
 	STAssertEquals([rt secondsUntilNextBell], 0, 
 				   @"After sync, seconds to next bell should be 0");
 	// Check that current time is the right bell time

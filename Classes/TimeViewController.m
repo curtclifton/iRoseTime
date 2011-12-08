@@ -29,7 +29,8 @@
 #pragma mark -
 #pragma mark Custom View Logic
 
-- (void) updateTimeDisplay:(NSTimer*)theTimer {
+- (void)updateTimeDisplay:(NSTimer *)theTimer;
+{
     [UIView beginAnimations:@"Update Time" context:nil];
     [UIView setAnimationDuration:0.5];
     
@@ -62,7 +63,6 @@
         CGFloat travelRatio = (secondsPastMidnight - VISIBLE_TIME_BAR_BEGIN) / (VISIBLE_TIME_BAR_END - VISIBLE_TIME_BAR_BEGIN);
         CGPoint ctr = self.timeBarView.center;
         ctr.y = TIME_BAR_MIN_Y + TIME_BAR_VERTICAL_TRAVEL * travelRatio;
-        NSLog(@"Setting y location of time bar to %.2f", ctr.y);
         self.timeBarView.center = ctr;
         CGFloat fadeRatio;
         if (secondsPastMidnight < TIME_BAR_BEGINS_OPAQUE) {

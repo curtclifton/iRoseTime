@@ -10,10 +10,8 @@
 #import <UIKit/UIKit.h>
 #import "RoseTime.h"
 
-@interface SettingsViewController : UIViewController {
+@interface SettingsViewController : UIViewController
 
-}
-
-- (IBAction) synchronizeToBellNow;
+- (IBAction)synchronizeToBellNow;
 
 @end

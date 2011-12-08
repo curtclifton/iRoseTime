@@ -10,24 +10,18 @@
 #import <Foundation/Foundation.h>
 #import "RTTimeSource.h"
 
-@interface RoseTime : NSObject {
-}
-
-@property (nonatomic, assign) NSTimeInterval bellOffset;
-@property (nonatomic, retain) id<RTTimeSource> timeSource;
-@property (nonatomic, retain) NSDateFormatter *formatter;
-
-// Bell times in seconds since midnight, ascending
-@property (nonatomic, retain) NSArray *bellTimes;
+@interface RoseTime : NSObject 
 
 // Bell offset is number of seconds that bell is later than device system time
-- (id)initWithTimeSource:(id<RTTimeSource>)aTimeSource bellOffset:(NSTimeInterval)offset;
-- (id)initWithTimeSource:(id<RTTimeSource>)aTimeSource;
+- (id)initWithTimeSource:(id <RTTimeSource>)aTimeSource bellOffset:(NSTimeInterval)offset;
+- (id)initWithTimeSource:(id <RTTimeSource>)aTimeSource;
 
-- (NSInteger) secondsPastMidnightAtRose;
-- (NSInteger) secondsUntilNextBell;
-- (NSString *) currentTimeAsString;
+@property (nonatomic, assign) NSTimeInterval bellOffset;
 
-- (BOOL) synchronizeToBell;
+- (NSInteger)secondsPastMidnightAtRose;
+- (NSInteger)secondsUntilNextBell;
+- (NSString *)currentTimeAsString;
+
+- (BOOL)synchronizeToBell;
 
 @end
