@@ -13,6 +13,7 @@
 		282CCBFE0DB6C98000C4EA27 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SettingsView.xib */; };
 		2840D7CE1179279E00D7F93C /* TimeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* TimeView.xib */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		F711EEB614B41A8000509325 /* InfoTabbarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F711EEB514B41A8000509325 /* InfoTabbarIcon.png */; };
 		F7189D0B149856A200647DCB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7189D09149856A200647DCB /* AboutViewController.m */; };
 		F7189D0C149856A200647DCB /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7189D0A149856A200647DCB /* AboutView.xib */; };
 		F71A7324129F2B3000611CA5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71A7323129F2B3000611CA5 /* SettingsViewController.m */; };
@@ -54,6 +55,7 @@
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iRoseTime-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iRoseTime-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F711EEB514B41A8000509325 /* InfoTabbarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoTabbarIcon.png; sourceTree = "<group>"; };
 		F7189D08149856A200647DCB /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		F7189D09149856A200647DCB /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		F7189D0A149856A200647DCB /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutView.xib; path = Classes/AboutView.xib; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				F7189D0A149856A200647DCB /* AboutView.xib */,
 				8D1107310486CEB800E47090 /* iRoseTime-Info.plist */,
+				F711EEB514B41A8000509325 /* InfoTabbarIcon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				F7607CE81343C2C600212965 /* timeRuler_iPhone.png in Resources */,
 				F7E20A14147CC49600488E4F /* reticule_iPhone.png in Resources */,
 				F7189D0C149856A200647DCB /* AboutView.xib in Resources */,
+				F711EEB614B41A8000509325 /* InfoTabbarIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
