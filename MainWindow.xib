@@ -68,18 +68,18 @@
 				</object>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 				<bool key="IBUIHorizontal">NO</bool>
-				<object class="IBUIViewController" key="IBUISelectedViewController" id="788844098">
-					<object class="IBUITabBarItem" key="IBUITabBarItem" id="895055807">
-						<string key="IBUITitle">About</string>
+				<object class="IBUIViewController" key="IBUISelectedViewController" id="268481961">
+					<object class="IBUITabBarItem" key="IBUITabBarItem" id="807309489">
+						<string key="IBUITitle">Settings</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">InfoTabbarIcon.png</string>
+							<string key="NSResourceName">SettingsTabbarIcon.png</string>
 						</object>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<reference key="IBUITabBar" ref="795333663"/>
 					</object>
 					<reference key="IBUIParentViewController" ref="1034742383"/>
-					<string key="IBUINibName">AboutView</string>
+					<string key="IBUINibName">SettingsView</string>
 					<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 						<int key="IBUIInterfaceOrientation">1</int>
 						<int key="interfaceOrientation">1</int>
@@ -104,14 +104,19 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
-					<object class="IBUIViewController" id="268481961">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="807309489">
-							<string key="IBUITitle">Settings</string>
+					<reference ref="268481961"/>
+					<object class="IBUIViewController" id="788844098">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="895055807">
+							<string key="IBUITitle">About</string>
+							<object class="NSCustomResource" key="IBUIImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">InfoTabbarIcon.png</string>
+							</object>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							<reference key="IBUITabBar" ref="795333663"/>
 						</object>
 						<reference key="IBUIParentViewController" ref="1034742383"/>
-						<string key="IBUINibName">SettingsView</string>
+						<string key="IBUINibName">AboutView</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
 							<int key="interfaceOrientation">1</int>
@@ -119,7 +124,6 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
-					<reference ref="788844098"/>
 				</object>
 				<object class="IBUITabBar" key="IBUITabBar" id="795333663">
 					<reference key="NSNextResponder"/>
@@ -140,7 +144,7 @@
 						<reference ref="807309489"/>
 						<reference ref="895055807"/>
 					</object>
-					<reference key="IBUISelectedItem" ref="895055807"/>
+					<reference key="IBUISelectedItem" ref="807309489"/>
 				</object>
 			</object>
 		</object>
@@ -472,8 +476,17 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">InfoTabbarIcon.png</string>
-			<string key="NS.object.0">{28, 28}</string>
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<object class="NSArray" key="dict.sortedKeys">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<string>InfoTabbarIcon.png</string>
+				<string>SettingsTabbarIcon.png</string>
+			</object>
+			<object class="NSMutableArray" key="dict.values">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<string>{28, 28}</string>
+				<string>{27, 27}</string>
+			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">933</string>
 	</data>
