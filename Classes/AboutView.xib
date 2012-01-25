@@ -60,7 +60,6 @@
 						<string key="NSFrame">{{0, 44}, {320, 367}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:639</string>
 						<object class="NSColor" key="IBUIBackgroundColor" id="1002005448">
 							<int key="NSColorSpace">3</int>
@@ -72,7 +71,7 @@
 						<int key="IBUIIndicatorStyle">2</int>
 						<bool key="IBUIEditable">NO</bool>
 						<object class="NSMutableString" key="IBUIText">
-							<bytes key="NS.bytes">T3JpZ2luYWwgdmVyc2lvbiBieSBDdXJ0aXMgQ2xpZnRvbi4KQ29weXJpZ2h0IMKpIDIwMTDigJMyMDEx
+							<bytes key="NS.bytes">T3JpZ2luYWwgdmVyc2lvbiBieSBDdXJ0aXMgQ2xpZnRvbi4KQ29weXJpZ2h0IMKpIDIwMTDigJMyMDEy
 LCBDdXJ0aXMgQ2xpZnRvbiwgQWxsIFJpZ2h0cyBSZXNlcnZlZC4KCkJhY2tncm91bmQgcGljdHVyZSBv
 ZiB0aGUgTWlsbGVuaXVtIEZsYW1lIGJ5IFN0ZXBoZW4gR3JlZ29yeS4KClJlZGlzdHJpYnV0aW9uIGFu
 ZCB1c2UgaW4gc291cmNlIGFuZCBiaW5hcnkgZm9ybXMsIHdpdGggb3Igd2l0aG91dCBtb2RpZmljYXRp
