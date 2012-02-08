@@ -44,8 +44,8 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="IBUIImageView" id="333580355">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">-2147483356</int>
-						<string key="NSFrameSize">{320, 411}</string>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{0, 44}, {320, 367}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="675476551"/>
@@ -54,7 +54,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">Millenium_Flame.jpg</string>
+							<string key="NSResourceName">Background.png</string>
 						</object>
 					</object>
 					<object class="IBUINavigationBar" id="675476551">
@@ -498,7 +498,7 @@
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>Millenium_Flame.jpg</string>
+				<string>Background.png</string>
 				<string>RoseKnockout.png</string>
 				<string>periodRuler_iPhone.png</string>
 				<string>reticule_iPhone.png</string>
@@ -506,7 +506,7 @@
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<string>{333, 500}</string>
+				<string>{640, 734}</string>
 				<string>{555, 90}</string>
 				<string>{108, 734}</string>
 				<string>{130, 82}</string>
