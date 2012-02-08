@@ -8,8 +8,6 @@ Planned enhancements:
 
 - countdown to next bell using some additional Rose-appropriate device; micrometer, anyone?
 
-- improved background images; current image is from [Stephen Gregory's Flickr page] [1]
-
 - highlight which periods of the day you have class
 
 - interface with Banner schedule lookup
@@ -28,6 +26,4 @@ Eventually, I'll post iRoseTime to the App Store.  For now, the only way to inst
 ## What's all this about Bells?
 
 For the uninitiated, Rose runs on 50 minute class periods with 5 minute passing periods.  Five minutes is barely long enough, so we have bells that ring to signal the start and end of each period.  Can't have us boring professors droning on past our allotted 50 minutes.
-
-[1]:  <http://www.flickr.com/photos/stephenagregory/191277215/> "Stephen Gregory's flickr page."
 
