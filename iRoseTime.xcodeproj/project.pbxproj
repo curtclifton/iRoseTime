@@ -16,6 +16,8 @@
 		F7189D0B149856A200647DCB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7189D09149856A200647DCB /* AboutViewController.m */; };
 		F7189D0C149856A200647DCB /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7189D0A149856A200647DCB /* AboutView.xib */; };
 		F71A7324129F2B3000611CA5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71A7323129F2B3000611CA5 /* SettingsViewController.m */; };
+		F72D08E214F4B7E0006E44C3 /* Bell.png in Resources */ = {isa = PBXBuildFile; fileRef = F72D08E014F4B7E0006E44C3 /* Bell.png */; };
+		F72D08E314F4B7E0006E44C3 /* Bell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72D08E114F4B7E0006E44C3 /* Bell@2x.png */; };
 		F74117A1129DBF4300A61436 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74117A0129DBF4300A61436 /* CoreGraphics.framework */; };
 		F74117A3129DBF4300A61436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74117A2129DBF4300A61436 /* Foundation.framework */; };
 		F74117A5129DBF4300A61436 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74117A4129DBF4300A61436 /* UIKit.framework */; };
@@ -62,6 +64,8 @@
 		F7189D0A149856A200647DCB /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutView.xib; path = Classes/AboutView.xib; sourceTree = "<group>"; };
 		F71A7322129F2B3000611CA5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		F71A7323129F2B3000611CA5 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F72D08E014F4B7E0006E44C3 /* Bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bell.png; sourceTree = "<group>"; };
+		F72D08E114F4B7E0006E44C3 /* Bell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bell@2x.png"; sourceTree = "<group>"; };
 		F74117A0129DBF4300A61436 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F74117A2129DBF4300A61436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F74117A4129DBF4300A61436 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -160,6 +164,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F72D08E014F4B7E0006E44C3 /* Bell.png */,
+				F72D08E114F4B7E0006E44C3 /* Bell@2x.png */,
 				F7607CE51343C2C600212965 /* periodRuler_iPhone.png */,
 				F7607CE61343C2C600212965 /* timeRuler_iPhone.png */,
 				F7E20A13147CC49600488E4F /* reticule_iPhone.png */,
@@ -273,6 +279,8 @@
 				F7BE055E14BD4F4F00FAAC52 /* SettingsTabbarIcon.png in Resources */,
 				F7BE056414BD5C0500FAAC52 /* TimeTabbarIcon.png in Resources */,
 				F7BCE3E414E2398F0046551E /* Background.png in Resources */,
+				F72D08E214F4B7E0006E44C3 /* Bell.png in Resources */,
+				F72D08E314F4B7E0006E44C3 /* Bell@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
