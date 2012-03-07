@@ -21,6 +21,8 @@
 		F74117A1129DBF4300A61436 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74117A0129DBF4300A61436 /* CoreGraphics.framework */; };
 		F74117A3129DBF4300A61436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74117A2129DBF4300A61436 /* Foundation.framework */; };
 		F74117A5129DBF4300A61436 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74117A4129DBF4300A61436 /* UIKit.framework */; };
+		F751CB2815072D6B009693CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F751CB2715072D6B009693CA /* Default.png */; };
+		F751CB2A15072D80009693CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F751CB2915072D80009693CA /* Default@2x.png */; };
 		F7607CE71343C2C600212965 /* periodRuler_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = F7607CE51343C2C600212965 /* periodRuler_iPhone.png */; };
 		F7607CE81343C2C600212965 /* timeRuler_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = F7607CE61343C2C600212965 /* timeRuler_iPhone.png */; };
 		F7BCE3E414E2398F0046551E /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = F7BCE3E314E2398F0046551E /* Background.png */; };
@@ -69,6 +71,8 @@
 		F74117A0129DBF4300A61436 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F74117A2129DBF4300A61436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F74117A4129DBF4300A61436 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F751CB2715072D6B009693CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F751CB2915072D80009693CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F7607CE51343C2C600212965 /* periodRuler_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = periodRuler_iPhone.png; sourceTree = "<group>"; };
 		F7607CE61343C2C600212965 /* timeRuler_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeRuler_iPhone.png; sourceTree = "<group>"; };
 		F7BCE3E314E2398F0046551E /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 			children = (
 				F72D08E014F4B7E0006E44C3 /* Bell.png */,
 				F72D08E114F4B7E0006E44C3 /* Bell@2x.png */,
+				F751CB2715072D6B009693CA /* Default.png */,
+				F751CB2915072D80009693CA /* Default@2x.png */,
 				F7607CE51343C2C600212965 /* periodRuler_iPhone.png */,
 				F7607CE61343C2C600212965 /* timeRuler_iPhone.png */,
 				F7E20A13147CC49600488E4F /* reticule_iPhone.png */,
@@ -281,6 +287,8 @@
 				F7BCE3E414E2398F0046551E /* Background.png in Resources */,
 				F72D08E214F4B7E0006E44C3 /* Bell.png in Resources */,
 				F72D08E314F4B7E0006E44C3 /* Bell@2x.png in Resources */,
+				F751CB2815072D6B009693CA /* Default.png in Resources */,
+				F751CB2A15072D80009693CA /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
