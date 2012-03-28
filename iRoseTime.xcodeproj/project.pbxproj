@@ -19,6 +19,10 @@
 		F7189D0B149856A200647DCB /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7189D09149856A200647DCB /* AboutViewController.m */; };
 		F7189D0C149856A200647DCB /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7189D0A149856A200647DCB /* AboutView.xib */; };
 		F71A7324129F2B3000611CA5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71A7323129F2B3000611CA5 /* SettingsViewController.m */; };
+		F72548B81522C10C004A8D2D /* SyncTimeDial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72548B61522C10C004A8D2D /* SyncTimeDial@2x.png */; };
+		F72548B91522C10C004A8D2D /* SyncTimeDial.png in Resources */ = {isa = PBXBuildFile; fileRef = F72548B71522C10C004A8D2D /* SyncTimeDial.png */; };
+		F72548BC1522D18A004A8D2D /* SyncTimeDialMask.png in Resources */ = {isa = PBXBuildFile; fileRef = F72548BA1522D18A004A8D2D /* SyncTimeDialMask.png */; };
+		F72548BD1522D18A004A8D2D /* SyncTimeDialMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72548BB1522D18A004A8D2D /* SyncTimeDialMask@2x.png */; };
 		F72D08E214F4B7E0006E44C3 /* Bell.png in Resources */ = {isa = PBXBuildFile; fileRef = F72D08E014F4B7E0006E44C3 /* Bell.png */; };
 		F72D08E314F4B7E0006E44C3 /* Bell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72D08E114F4B7E0006E44C3 /* Bell@2x.png */; };
 		F74117A1129DBF4300A61436 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74117A0129DBF4300A61436 /* CoreGraphics.framework */; };
@@ -72,6 +76,10 @@
 		F7189D0A149856A200647DCB /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutView.xib; path = Classes/AboutView.xib; sourceTree = "<group>"; };
 		F71A7322129F2B3000611CA5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		F71A7323129F2B3000611CA5 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F72548B61522C10C004A8D2D /* SyncTimeDial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SyncTimeDial@2x.png"; sourceTree = "<group>"; };
+		F72548B71522C10C004A8D2D /* SyncTimeDial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SyncTimeDial.png; sourceTree = "<group>"; };
+		F72548BA1522D18A004A8D2D /* SyncTimeDialMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SyncTimeDialMask.png; sourceTree = "<group>"; };
+		F72548BB1522D18A004A8D2D /* SyncTimeDialMask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SyncTimeDialMask@2x.png"; sourceTree = "<group>"; };
 		F72D08E014F4B7E0006E44C3 /* Bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bell.png; sourceTree = "<group>"; };
 		F72D08E114F4B7E0006E44C3 /* Bell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bell@2x.png"; sourceTree = "<group>"; };
 		F74117A0129DBF4300A61436 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -178,6 +186,10 @@
 				F72D08E114F4B7E0006E44C3 /* Bell@2x.png */,
 				F751CB2715072D6B009693CA /* Default.png */,
 				F751CB2915072D80009693CA /* Default@2x.png */,
+				F72548B61522C10C004A8D2D /* SyncTimeDial@2x.png */,
+				F72548B71522C10C004A8D2D /* SyncTimeDial.png */,
+				F72548BA1522D18A004A8D2D /* SyncTimeDialMask.png */,
+				F72548BB1522D18A004A8D2D /* SyncTimeDialMask@2x.png */,
 				F7607CE51343C2C600212965 /* periodRuler_iPhone.png */,
 				F7607CE61343C2C600212965 /* timeRuler_iPhone.png */,
 				F7E20A13147CC49600488E4F /* reticule_iPhone.png */,
@@ -301,6 +313,10 @@
 				F705656615104E1C00529234 /* TimeTabbarIcon@2x.png in Resources */,
 				F70565691510514000529234 /* SettingsTabbarIcon@2x.png in Resources */,
 				F705656A1510514000529234 /* InfoTabbarIcon@2x.png in Resources */,
+				F72548B81522C10C004A8D2D /* SyncTimeDial@2x.png in Resources */,
+				F72548B91522C10C004A8D2D /* SyncTimeDial.png in Resources */,
+				F72548BC1522D18A004A8D2D /* SyncTimeDialMask.png in Resources */,
+				F72548BD1522D18A004A8D2D /* SyncTimeDialMask@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

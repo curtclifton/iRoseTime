@@ -12,6 +12,8 @@
 
 @interface SettingsViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UIImageView *syncTimeBar;
+
 - (IBAction)synchronizeToBellNow;
 
 @end
