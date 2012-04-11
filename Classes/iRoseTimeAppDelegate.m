@@ -25,7 +25,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 {
     RTActualTimeSource *theTime = [[RTActualTimeSource alloc] init];
-//    RTFixedTimeSource *theTime = [[RTFixedTimeSource alloc] initWithTime:[NSDate dateWithTimeIntervalSinceReferenceDate:-3012]];
+//    RTFixedTimeSource *theTime = [[RTFixedTimeSource alloc] initWithTime:[NSDate dateWithTimeIntervalSinceReferenceDate:-3013]];
     roseTime = [[RoseTime alloc] initWithTimeSource:theTime];
     [theTime release];
     
